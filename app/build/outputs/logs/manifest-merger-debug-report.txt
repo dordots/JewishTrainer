@@ -1,0 +1,384 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:21:1-237:12
+INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:21:1-237:12
+INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:21:1-237:12
+INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:21:1-237:12
+MERGED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:21:1-237:12
+MERGED from [com.android.support:design:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/bf4d3fa010edba126037edaa5dc3bd6f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:preference-v14:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/preference-v14-27.1.1.aar/56e45abafe74d982de5aa0d76a52c321/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.paolorotolo:appintro:3.4.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/appintro-3.4.0.aar/a942aff755d3f131bb87013abe63055e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:preference-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/preference-v7-27.1.1.aar/2238fb06e8fe978a131ad604e52ca205/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f132c376ddc7b1dee5ef13039881cc02/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/85eb7341e5231dda6fd10912ae359e24/AndroidManifest.xml:17:1-22:12
+MERGED from [com.getpebble:pebblekit:3.0.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/pebblekit-3.0.0.aar/3a1cd4d583daa1a24c7bd3d512f64b09/AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton:butterknife:8.0.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/butterknife-8.0.1.aar/803e65d640e7571ead21c275d5a1384d/AndroidManifest.xml:2:1-7:12
+MERGED from [org.apmem.tools:layouts:1.10] /Users/basim/.gradle/caches/transforms-1/files-1.1/layouts-1.10.aar/73350e17e16b3beea8e48e72fdde4686/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/2d28ea04b921060d84f8e5f715ff1785/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/dcf70d97e5ebbe4b43e0e205cd0e38a5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3266697267d89aded9376a3561de8d68/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2b0a558962d8b09df4795dce9eae37fa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0911ef9bb26f68cd15779642bf151cde/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/53bb8d882fc761aaf442690ccfd5c4b3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/adb892a7e11fe653406f23f958674c00/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/9ce2cd3f4d25e771a1764bde60d4472d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ff9546ef219cb17f71f2c4bdc32ddab6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/046b6d6e575db1d8749eeb3874950046/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/40a1af1398d31d0aa7b4693116d53d4d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6f4dcfa0fb965123a277b0bcb8c041b3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7d4646c0e11bcc89272cd79620af1114/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml:20:1-39:12
+INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml:20:1-39:12
+INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml:20:1-39:12
+	package
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:22:5-32
+		INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:25:5-32
+		INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:25:5-32
+		INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml:23:5-51
+	xmlns:android
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:23:5-63
+	android:versionCode
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:24:5-29
+		INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:24:5-29
+		INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:27:5-65
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:27:22-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:29:5-31:37
+MERGED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:29:5-31:37
+MERGED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:29:5-31:37
+	android:maxSdkVersion
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:31:9-35
+		REJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:31:9-35
+	tools:replace
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml:31:9-38
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:30:9-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:33:5-35:37
+MERGED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:33:5-35:37
+MERGED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:33:5-35:37
+	android:maxSdkVersion
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:35:9-35
+		REJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:35:9-35
+	tools:replace
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml:36:9-38
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:34:9-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:37:5-80
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:37:22-78
+application
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:39:5-236:19
+	android:backupAgent
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:42:9-66
+	android:supportsRtl
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:45:9-35
+	android:label
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:44:9-52
+	android:icon
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:43:9-40
+	android:allowBackup
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:41:9-35
+	android:theme
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:46:9-44
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:40:9-59
+meta-data#com.google.android.backup.api_key
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:48:9-50:81
+	android:value
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:50:13-79
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:49:13-61
+activity#org.basim.uhabits.activities.habits.list.ListHabitsActivity
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:52:9-56:45
+	android:label
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:55:13-56
+	android:launchMode
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:56:13-43
+	android:exported
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:54:13-36
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:53:13-87
+activity-alias#org.basim.uhabits.MainActivity
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:58:9-67:26
+	android:label
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:60:13-56
+	android:launchMode
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:61:13-43
+	android:targetActivity
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:62:13-97
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:59:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:63:13-66:29
+	android:label
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:63:28-60
+action#android.intent.action.MAIN
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:64:17-68
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:64:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:65:17-76
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:65:27-74
+activity#org.basim.uhabits.activities.habits.show.ShowHabitActivity
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:69:9-75:20
+	android:label
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:71:13-62
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:70:13-86
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:72:13-74:94
+	android:value
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:74:17-92
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:73:17-63
+activity#org.basim.uhabits.activities.settings.SettingsActivity
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:77:9-83:20
+	android:label
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:79:13-45
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:78:13-82
+activity#org.basim.uhabits.activities.intro.IntroActivity
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:85:9-88:71
+	android:label
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:87:13-29
+	android:theme
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:88:13-69
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:86:13-76
+activity#org.basim.uhabits.widgets.HabitPickerDialog
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:90:9-96:20
+	android:theme
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:92:13-64
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:91:13-71
+intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:93:13-95:29
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:94:17-86
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:94:25-84
+activity#org.basim.uhabits.activities.about.AboutActivity
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:98:9-104:20
+	android:label
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:100:13-42
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:99:13-76
+receiver#org.basim.uhabits.widgets.CheckmarkWidgetProvider
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:106:9-116:20
+	android:label
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:108:13-46
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:107:13-77
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:109:13-111:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:110:17-83
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:110:25-81
+meta-data#android.appwidget.provider
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:113:13-115:64
+	android:resource
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:115:17-62
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:114:17-58
+receiver#org.basim.uhabits.widgets.HistoryWidgetProvider
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:118:9-128:20
+	android:label
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:120:13-44
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:119:13-75
+receiver#org.basim.uhabits.widgets.ScoreWidgetProvider
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:130:9-140:20
+	android:label
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:132:13-51
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:131:13-73
+receiver#org.basim.uhabits.widgets.StreakWidgetProvider
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:142:9-152:20
+	android:label
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:144:13-44
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:143:13-74
+receiver#org.basim.uhabits.widgets.FrequencyWidgetProvider
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:154:9-164:20
+	android:label
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:156:13-46
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:155:13-77
+receiver#org.basim.uhabits.receivers.ReminderReceiver
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:166:9-170:20
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:166:19-78
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:167:13-169:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:168:17-78
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:168:25-76
+receiver#org.basim.uhabits.receivers.WidgetReceiver
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:172:9-196:20
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:172:19-76
+intent-filter#action:name:org.isoron.uhabits.ACTION_TOGGLE_REPETITION+category:name:android.intent.category.DEFAULT+data:host:org.isoron.uhabits+data:scheme:content
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:173:13-179:29
+category#android.intent.category.DEFAULT
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:174:17-75
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:174:27-73
+action#org.isoron.uhabits.ACTION_TOGGLE_REPETITION
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:175:17-85
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:175:25-83
+data
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:176:17-178:47
+	android:host
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:177:21-54
+	android:scheme
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:178:21-45
+intent-filter#action:name:org.isoron.uhabits.ACTION_ADD_REPETITION+category:name:android.intent.category.DEFAULT+data:host:org.isoron.uhabits+data:scheme:content
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:181:13-187:29
+action#org.isoron.uhabits.ACTION_ADD_REPETITION
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:183:17-82
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:183:25-80
+intent-filter#action:name:org.isoron.uhabits.ACTION_REMOVE_REPETITION+category:name:android.intent.category.DEFAULT+data:host:org.isoron.uhabits+data:scheme:content
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:189:13-195:29
+action#org.isoron.uhabits.ACTION_REMOVE_REPETITION
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:191:17-85
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:191:25-83
+receiver#org.basim.uhabits.receivers.PebbleReceiver
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:199:9-203:20
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:199:19-76
+intent-filter#action:name:com.getpebble.action.app.RECEIVE
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:200:13-202:29
+action#com.getpebble.action.app.RECEIVE
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:201:17-74
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:201:25-72
+activity#org.basim.uhabits.automation.EditSettingActivity
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:206:9-215:20
+	android:label
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:210:13-45
+	android:exported
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:208:13-36
+	android:icon
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:209:13-47
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:207:13-76
+intent-filter#action:name:com.twofortyfouram.locale.intent.action.EDIT_SETTING
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:211:13-214:29
+action#com.twofortyfouram.locale.intent.action.EDIT_SETTING
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:212:17-213:90
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:213:21-88
+receiver#org.basim.uhabits.automation.FireSettingReceiver
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:218:9-224:20
+	android:exported
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:220:13-36
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:219:13-76
+intent-filter#action:name:com.twofortyfouram.locale.intent.action.FIRE_SETTING
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:221:13-223:29
+action#com.twofortyfouram.locale.intent.action.FIRE_SETTING
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:222:17-94
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:222:25-92
+provider#android.support.v4.content.FileProvider
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:226:9-234:20
+	android:grantUriPermissions
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:230:13-47
+	android:authorities
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:228:13-52
+	android:exported
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:229:13-37
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:227:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:231:13-233:54
+	android:resource
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:233:17-51
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml:232:17-67
+uses-sdk
+INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml
+INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/bf4d3fa010edba126037edaa5dc3bd6f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/bf4d3fa010edba126037edaa5dc3bd6f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v14:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/preference-v14-27.1.1.aar/56e45abafe74d982de5aa0d76a52c321/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v14:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/preference-v14-27.1.1.aar/56e45abafe74d982de5aa0d76a52c321/AndroidManifest.xml:20:5-44
+MERGED from [com.github.paolorotolo:appintro:3.4.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/appintro-3.4.0.aar/a942aff755d3f131bb87013abe63055e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.paolorotolo:appintro:3.4.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/appintro-3.4.0.aar/a942aff755d3f131bb87013abe63055e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:preference-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/preference-v7-27.1.1.aar/2238fb06e8fe978a131ad604e52ca205/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/preference-v7-27.1.1.aar/2238fb06e8fe978a131ad604e52ca205/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f132c376ddc7b1dee5ef13039881cc02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f132c376ddc7b1dee5ef13039881cc02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/85eb7341e5231dda6fd10912ae359e24/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/85eb7341e5231dda6fd10912ae359e24/AndroidManifest.xml:20:5-44
+MERGED from [com.getpebble:pebblekit:3.0.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/pebblekit-3.0.0.aar/3a1cd4d583daa1a24c7bd3d512f64b09/AndroidManifest.xml:7:5-9:41
+MERGED from [com.getpebble:pebblekit:3.0.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/pebblekit-3.0.0.aar/3a1cd4d583daa1a24c7bd3d512f64b09/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton:butterknife:8.0.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/butterknife-8.0.1.aar/803e65d640e7571ead21c275d5a1384d/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.0.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/butterknife-8.0.1.aar/803e65d640e7571ead21c275d5a1384d/AndroidManifest.xml:5:5-43
+MERGED from [org.apmem.tools:layouts:1.10] /Users/basim/.gradle/caches/transforms-1/files-1.1/layouts-1.10.aar/73350e17e16b3beea8e48e72fdde4686/AndroidManifest.xml:7:5-9:41
+MERGED from [org.apmem.tools:layouts:1.10] /Users/basim/.gradle/caches/transforms-1/files-1.1/layouts-1.10.aar/73350e17e16b3beea8e48e72fdde4686/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/2d28ea04b921060d84f8e5f715ff1785/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/2d28ea04b921060d84f8e5f715ff1785/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/dcf70d97e5ebbe4b43e0e205cd0e38a5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/dcf70d97e5ebbe4b43e0e205cd0e38a5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3266697267d89aded9376a3561de8d68/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3266697267d89aded9376a3561de8d68/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2b0a558962d8b09df4795dce9eae37fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2b0a558962d8b09df4795dce9eae37fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0911ef9bb26f68cd15779642bf151cde/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0911ef9bb26f68cd15779642bf151cde/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/53bb8d882fc761aaf442690ccfd5c4b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/53bb8d882fc761aaf442690ccfd5c4b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/adb892a7e11fe653406f23f958674c00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/adb892a7e11fe653406f23f958674c00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/9ce2cd3f4d25e771a1764bde60d4472d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/9ce2cd3f4d25e771a1764bde60d4472d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ff9546ef219cb17f71f2c4bdc32ddab6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ff9546ef219cb17f71f2c4bdc32ddab6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/046b6d6e575db1d8749eeb3874950046/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/046b6d6e575db1d8749eeb3874950046/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/40a1af1398d31d0aa7b4693116d53d4d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/40a1af1398d31d0aa7b4693116d53d4d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6f4dcfa0fb965123a277b0bcb8c041b3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6f4dcfa0fb965123a277b0bcb8c041b3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7d4646c0e11bcc89272cd79620af1114/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7d4646c0e11bcc89272cd79620af1114/AndroidManifest.xml:20:5-44
+INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SET_ANIMATION_SCALE
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml:25:5-77
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml:25:22-75
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml:26:5-74
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml:26:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from /Users/basim/AndroidStudioProjects/uhabits/app/src/debug/AndroidManifest.xml:27:22-65
