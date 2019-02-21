@@ -1,4 +1,4 @@
-#Tue Feb 19 17:21:42 PKT 2019
-base.0=/Users/basim/AndroidStudioProjects/uhabits/app/build/intermediates/transforms/dexMerger/debug/0
+#Thu Feb 21 16:46:38 PKT 2019
+base.0=/Users/basim/AndroidStudioProjects/JewishTrainer/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

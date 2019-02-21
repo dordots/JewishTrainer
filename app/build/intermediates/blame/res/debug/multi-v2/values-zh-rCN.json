@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/basim/AndroidStudioProjects/uhabits/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "/Users/basim/AndroidStudioProjects/JewishTrainer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
-                    "source": "/Users/basim/AndroidStudioProjects/uhabits/app/src/main/res/values-zh-rCN/strings.xml",
+                    "source": "/Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/res/values-zh-rCN/strings.xml",
                     "from": {
                         "startLines": "104,169,23,28,118,97,96,21,26,85,111,135,174,173,175,59,109,42,101,29,125,126,57,112,123,166,146,46,25,92,93,43,106,48,100,176,24,58,119,120,154,156,155,177,133,131,134,99,127,160,122,108,129,136,170,94,40,128,124,138,162,161,90,91,89,41,130,132,143,70,72,76,73,71,74,75,63,65,67,69,62,64,66,68,114,116,115,117,84,52,22,172,148,86,139,51,159,113,39,80,81,79,78,77,83,82,141,149,47,53,158,165,44,144,145,49,157,102,103,98,87,60,88,171,163,164,50,110,153,45,37,35,36,30,31,32,38,34,33,168,151,105,137,121,27,167,140,56,54,55,107,147,95,150",
                         "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2",

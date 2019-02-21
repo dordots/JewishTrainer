@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Idi na početnu"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Idi gore"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Dodatne opcije"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Gotovo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Prikaži sve"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Odabir aplikacije"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ISKLJUČENO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"UKLJUČENO"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pretražite…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Izbriši upit"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Upit za pretraživanje"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pretraživanje"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Pošalji upit"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Glasovno pretraživanje"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Dijeljenje sa"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Dijeli putem aplikacije <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Sažmi"</string>
+    <string name="about">O aplikaciji</string>
+    <string name="action">Radnja</string>
+    <string name="action_settings">Postavke</string>
+    <string name="add_habit">Dodaj naviku</string>
+    <string name="all_time">Čitavo vrijeme</string>
+    <string name="any_day">Bilo koji dan u tjednu</string>
+    <string name="any_weekday">Ponedjeljak do Petak</string>
+    <string name="app_name">Loop Habit Tracker</string>
+    <string name="archive">Arhiviraj</string>
+    <string name="behavior">Ponašanje</string>
+    <string name="best_streaks">Najbolji nizovi</string>
+    <string name="bug_report_failed">Generiranje izvješća o pogrešci nije uspjelo.</string>
+    <string name="by_color">Po boji</string>
+    <string name="by_name">Po nazivu</string>
+    <string name="by_score">Po rezultatu</string>
+    <string name="check">Potvrdi</string>
+    <string name="checkmark">Kvačica</string>
+    <string name="clear">Očisti</string>
+    <string name="clear_label">Očisti</string>
+    <string name="color_picker_default_title">Promijeni boju</string>
+    <string name="could_not_export">Izvoz podataka nije uspio.</string>
+    <string name="could_not_import">Uvoz podataka nije uspio.</string>
+    <string name="create_habit">Stvori naviku</string>
+    <string name="current_streaks">Trenutni niz</string>
+    <string name="custom_frequency">Prilagođeno ...</string>
+    <string name="database_repaired">Baza podataka je popravljena.</string>
+    <string name="day">Dan</string>
+    <string name="days">dani</string>
+    <string name="delete">Izbriši</string>
+    <string name="delete_habits">Izbriši Navike</string>
+    <string name="delete_habits_message">Navike će biti trajno izbrisane. Ova radnja se ne može poništiti.</string>
+    <string name="description_hint">Pitanje (Jesi li danas...?)</string>
+    <string name="developers">Razvojni programeri</string>
+    <string name="discard">Odbaci</string>
+    <string name="done_label">Dovršeno</string>
+    <string name="download">Preuzmi</string>
+    <string name="edit">Uredi</string>
+    <string name="edit_habit">Uredi naviku</string>
+    <string name="every_day">Svaki dan</string>
+    <string name="every_week">Svaki tjedan</string>
+    <string name="every_x_days">Svaka %d dana</string>
+    <string name="every_x_months">Svaka %d mjeseca</string>
+    <string name="every_x_weeks">Svaka %d tjedna</string>
+    <string name="export">Izvezi</string>
+    <string name="export_as_csv_summary">Generira datoteke koje se mogu otvarati programima za tablice kao što su Microsoft Excel ili OpenOffice Calc. Ova datoteka se ne može uvoziti.</string>
+    <string name="export_full_backup">Izvezi sigurnosnu kopiju</string>
+    <string name="export_full_backup_summary">Generira datoteku koja sadrži sve vaše podatke. Ova datoteka se može uvoziti.</string>
+    <string name="export_to_csv">Izvezi kao CSV</string>
+    <string name="file_not_recognized">Datoteka nije prepoznata.</string>
+    <string name="filter">Filtar</string>
+    <string name="five_times_per_week">5 puta tjedno</string>
+    <string name="frequency">Učestalost</string>
+    <string name="full_backup_success">Sigurnosna kopija je uspješno izvezena.</string>
+    <string name="generate_bug_report">Generiraj izvješće o pogreški</string>
+    <string name="habit">Navika</string>
+    <string name="habit_not_found">Navika je izbrisana / nije pronađena</string>
+    <string name="habit_strength">Snaga navike</string>
+    <string name="habits_imported">Navike su uspješno uvezene.</string>
+    <string name="help">Pomoć i pitanja</string>
+    <string name="help_translate">Pomozi prevesti ovu aplikaciju</string>
+    <string name="hide_archived">Sakrij arhivirano</string>
+    <string name="hide_completed">Sakrij završeno</string>
+    <string name="hint_drag">Za razmještanje unosa, pritisnite i držite naziv navike, pa ih premjestite na točno mjesto.</string>
+    <string name="hint_landscape">Možete vidjeti više dana prebacivanjem uređaja u vodoravnu orijentaciju.</string>
+    <string name="hint_title">Jeste li znali?</string>
+    <string name="history">Povijest</string>
+    <string name="import_data">Uvezi podatke</string>
+    <string name="import_data_summary">Podržava sigurnosne kopije izvezene iz ove aplikacije, isto kao i datoteke generirane u Tickmate, HabitBull i Rewire. Pogledajte Pomoć i pitanja za više informacija.</string>
+    <string name="interface_preferences">Sučelje</string>
+    <string name="interval_15_minutes">15 minuta</string>
+    <string name="interval_1_hour">1 sat</string>
+    <string name="interval_24_hour">24 sata</string>
+    <string name="interval_2_hour">2 sata</string>
+    <string name="interval_30_minutes">30 minuta</string>
+    <string name="interval_4_hour">4 sata</string>
+    <string name="interval_8_hour">8 sati</string>
+    <string name="intro_description_1">Loop Habit Tracker vam pomaže stvoriti i održavati dobre navike.</string>
+    <string name="intro_description_2">Svaki dan, nakon izvođenja vaše navike, postavite \"kvačicu\" u aplikaciji.</string>
+    <string name="intro_description_3">Navikama koje konstantno izvodite kroz dugo vremena će te zaraditi punu zvjezdicu.</string>
+    <string name="intro_description_4">Detaljni grafovi vam prikazuju kako se vaše navike poboljšavaju kroz vrijeme.</string>
+    <string name="intro_title_1">Dobrodošli</string>
+    <string name="intro_title_2">Stvorite neke nove navike</string>
+    <string name="intro_title_3">Nastavite tako</string>
+    <string name="intro_title_4">Pratite svoj napredak</string>
+    <string name="last_x_days">Zadnjih %d dana</string>
+    <string name="last_x_months">Zadnjih %d mjeseca</string>
+    <string name="last_x_weeks">Zadnjih %d tjedana</string>
+    <string name="last_x_years">Zadnjih %d godina</string>
+    <string name="links">Poveznice</string>
+    <string name="long_press_to_toggle">Pritisnite i držite za označavanje ili odznačavanje.</string>
+    <string name="main_activity_title">Navike</string>
+    <string name="manually">Ručno</string>
+    <string name="month">Mjesec</string>
+    <string name="name">Naziv</string>
+    <string name="night_mode">Noćni način</string>
+    <string name="no_habits_found">Nemate aktivnih navika</string>
+    <string name="none">Nijedan</string>
+    <string name="number_of_repetitions">Broj ponavljanja</string>
+    <string name="overview">Pregled</string>
+    <string name="pref_rate_this_app">Ocijeni ovu aplikaciju na Google Playu</string>
+    <string name="pref_send_feedback">Pošalji povratne informacije raz. programeru</string>
+    <string name="pref_snooze_interval_title">Interval odgađanja na podsjetnicima</string>
+    <string name="pref_toggle_description">Zgodnije je, no može uzrokovati slučajna označavanja.</string>
+    <string name="pref_toggle_title">Označi ponavljanja sa kratkim pritisk.</string>
+    <string name="pref_view_app_introduction">Prikaži uvod u aplikaciju</string>
+    <string name="pref_view_source_code">Pogledaj izvorni kod na GitHubu</string>
+    <string name="pure_black_description">Zamjenjuje sivu pozadinu sa crnom u noćnom načinu. To smanjuje potrošnju bateriju na uređajima s AMOLED zaslonima.</string>
+    <string name="quarter">Četvrtina</string>
+    <string name="reminder">Podsjetnik</string>
+    <string name="reminder_off">Isključen</string>
+    <string name="reminder_sound">Zvuk podsjetnika</string>
+    <string name="repair_database">Popravi bazu podataka</string>
+    <string name="repeat">Ponovi</string>
+    <string name="reverse_days">Obrnuti poredak dana</string>
+    <string name="reverse_days_description">Prikažite dane obrnutim redom na glavnom zaslonu</string>
+    <string name="save">Spremi</string>
+    <string name="score">Rezultat</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Pretraživanje"</string>
+    <string name="select_hours">Odaberi sate</string>
+    <string name="select_minutes">Odaberite minute</string>
+    <string name="select_weekdays">Odaberi dane</string>
+    <string name="settings">Postavke</string>
+    <string name="snooze">Kasnije</string>
+    <string name="snooze_interval">Interval odgađanja</string>
+    <string name="sort">Sortiraj</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="sticky_notifications">Učini obavijesti trajnima</string>
+    <string name="sticky_notifications_description">Spriječava da se obavijesti zanemare.</string>
+    <string name="streaks">Niz</string>
+    <string name="strength">Snaga</string>
+    <string name="time_every">put svakih</string>
+    <string name="times_every">puta u</string>
+    <string name="toast_habit_archived">Navike su arhivirane</string>
+    <string name="toast_habit_changed">Navika je promijenjena</string>
+    <string name="toast_habit_changed_back">Navika je vraćena u početno stanje</string>
+    <string name="toast_habit_created">Navika je stvorena</string>
+    <string name="toast_habit_deleted">Navike su izbrisane</string>
+    <string name="toast_habit_restored">Navike su obnovljene</string>
+    <string name="toast_habit_unarchived">Navike su dearhivirane</string>
+    <string name="toast_nothing_to_redo">Nema ništa za obnavljanje</string>
+    <string name="toast_nothing_to_undo">Nema ništa za poništavanje</string>
+    <string name="toggle">Uključi/isključi</string>
+    <string name="total">Ukupno</string>
+    <string name="translators">Prevoditelji</string>
+    <string name="troubleshooting">Rješavanje problema</string>
+    <string name="two_times_per_week">2 puta tjedno</string>
+    <string name="unarchive">Dearhiviraj</string>
+    <string name="uncheck">Odznači</string>
+    <string name="use_pure_black">Koristi crnu boju za noćni način</string>
+    <string name="validation_at_most_one_rep_per_day">Možete imati najviše jedno ponavljanje po danu</string>
+    <string name="validation_name_should_not_be_blank">Naziv ne može biti prazan.</string>
+    <string name="validation_number_should_be_positive">Broj mora biti pozitivan.</string>
+    <string name="version_n">Verzija %s</string>
+    <string name="week">Tjedan</string>
+    <string name="weekends">Vikendi</string>
+    <string name="year">Godina</string>
+</resources>

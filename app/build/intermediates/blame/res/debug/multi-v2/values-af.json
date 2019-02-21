@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/basim/AndroidStudioProjects/uhabits/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml",
+            "outputFile": "/Users/basim/AndroidStudioProjects/JewishTrainer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml",
             "map": [
                 {
                     "source": "/Users/basim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f132c376ddc7b1dee5ef13039881cc02/res/values-af/values-af.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/basim/AndroidStudioProjects/uhabits/app/src/main/res/values-af/strings.xml",
+                    "source": "/Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/res/values-af/strings.xml",
                     "from": {
                         "startLines": "23,28,21,26,29,25,24,42,44,48,45,43,46,47,41,22,39,49,37,35,36,30,31,32,38,34,33,27",
                         "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2",

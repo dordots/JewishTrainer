@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/basim/AndroidStudioProjects/uhabits/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml",
+            "outputFile": "/Users/basim/AndroidStudioProjects/JewishTrainer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml",
             "map": [
                 {
                     "source": "/Users/basim/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ff9546ef219cb17f71f2c4bdc32ddab6/res/values-mk/values-mk.xml",

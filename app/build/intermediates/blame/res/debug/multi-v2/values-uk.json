@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/basim/AndroidStudioProjects/uhabits/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml",
+            "outputFile": "/Users/basim/AndroidStudioProjects/JewishTrainer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml",
             "map": [
                 {
                     "source": "/Users/basim/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ff9546ef219cb17f71f2c4bdc32ddab6/res/values-uk/values-uk.xml",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/basim/AndroidStudioProjects/uhabits/app/src/main/res/values-uk/strings.xml",
+                    "source": "/Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/res/values-uk/strings.xml",
                     "from": {
                         "startLines": "104,168,23,28,118,97,96,21,26,85,111,135,173,172,174,59,109,42,101,29,125,126,57,112,123,165,145,46,25,92,93,43,106,48,100,175,24,58,119,120,153,155,154,176,133,131,134,99,127,159,122,108,129,136,169,94,40,128,124,138,161,160,90,91,89,41,130,132,142,70,72,76,73,71,74,75,63,65,67,69,62,64,66,68,114,116,115,117,84,52,22,171,147,86,139,51,158,113,39,80,81,79,78,77,83,82,141,148,47,53,157,164,44,143,144,49,156,102,103,98,87,60,88,170,162,163,50,110,152,45,37,35,36,30,31,32,38,34,33,167,150,105,137,121,27,166,140,56,54,55,107,146,95,149",
                         "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2",

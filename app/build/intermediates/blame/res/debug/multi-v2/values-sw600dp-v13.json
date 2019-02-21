@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/basim/AndroidStudioProjects/uhabits/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/Users/basim/AndroidStudioProjects/JewishTrainer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/basim/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/bf4d3fa010edba126037edaa5dc3bd6f/res/values-sw600dp-v13/values-sw600dp-v13.xml",
