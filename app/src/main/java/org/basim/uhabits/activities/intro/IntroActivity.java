@@ -39,7 +39,7 @@ public class IntroActivity extends AppIntro2
 
         addSlide(AppIntroFragment.newInstance(getString(R.string.intro_title_1),
             getString(R.string.intro_description_1), R.drawable.hebrew,
-            Color.parseColor("#194673")));
+            Color.parseColor("#4897d2")));
 
         addSlide(AppIntroFragment.newInstance(getString(R.string.intro_title_2),
             getString(R.string.intro_description_2), R.drawable.intro_icon_2,

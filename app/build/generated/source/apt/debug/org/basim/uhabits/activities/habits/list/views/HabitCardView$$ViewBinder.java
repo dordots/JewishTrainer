@@ -14,14 +14,14 @@ public class HabitCardView$$ViewBinder<T extends HabitCardView> implements ViewB
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131296328, "field 'checkmarkPanel'");
-    target.checkmarkPanel = finder.castView(view, 2131296328, "field 'checkmarkPanel'");
-    view = finder.findRequiredView(source, 2131296402, "field 'innerFrame'");
-    target.innerFrame = finder.castView(view, 2131296402, "field 'innerFrame'");
-    view = finder.findRequiredView(source, 2131296405, "field 'label'");
-    target.label = finder.castView(view, 2131296405, "field 'label'");
-    view = finder.findRequiredView(source, 2131296465, "field 'scoreRing'");
-    target.scoreRing = finder.castView(view, 2131296465, "field 'scoreRing'");
+    view = finder.findRequiredView(source, 2131296329, "field 'checkmarkPanel'");
+    target.checkmarkPanel = finder.castView(view, 2131296329, "field 'checkmarkPanel'");
+    view = finder.findRequiredView(source, 2131296403, "field 'innerFrame'");
+    target.innerFrame = finder.castView(view, 2131296403, "field 'innerFrame'");
+    view = finder.findRequiredView(source, 2131296406, "field 'label'");
+    target.label = finder.castView(view, 2131296406, "field 'label'");
+    view = finder.findRequiredView(source, 2131296466, "field 'scoreRing'");
+    target.scoreRing = finder.castView(view, 2131296466, "field 'scoreRing'");
     return unbinder;
   }
 

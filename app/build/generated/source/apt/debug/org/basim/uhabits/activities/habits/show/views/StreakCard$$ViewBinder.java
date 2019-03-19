@@ -14,10 +14,10 @@ public class StreakCard$$ViewBinder<T extends StreakCard> implements ViewBinder<
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131296528, "field 'title'");
-    target.title = finder.castView(view, 2131296528, "field 'title'");
-    view = finder.findRequiredView(source, 2131296505, "field 'streakChart'");
-    target.streakChart = finder.castView(view, 2131296505, "field 'streakChart'");
+    view = finder.findRequiredView(source, 2131296529, "field 'title'");
+    target.title = finder.castView(view, 2131296529, "field 'title'");
+    view = finder.findRequiredView(source, 2131296506, "field 'streakChart'");
+    target.streakChart = finder.castView(view, 2131296506, "field 'streakChart'");
     return unbinder;
   }
 

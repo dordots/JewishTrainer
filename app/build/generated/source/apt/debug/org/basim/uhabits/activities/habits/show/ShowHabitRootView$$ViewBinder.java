@@ -14,20 +14,20 @@ public class ShowHabitRootView$$ViewBinder<T extends ShowHabitRootView> implemen
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131296378, "field 'frequencyCard'");
-    target.frequencyCard = finder.castView(view, 2131296378, "field 'frequencyCard'");
-    view = finder.findRequiredView(source, 2131296504, "field 'streakCard'");
-    target.streakCard = finder.castView(view, 2131296504, "field 'streakCard'");
-    view = finder.findRequiredView(source, 2131296508, "field 'subtitleCard'");
-    target.subtitleCard = finder.castView(view, 2131296508, "field 'subtitleCard'");
-    view = finder.findRequiredView(source, 2131296442, "field 'overviewCard'");
-    target.overviewCard = finder.castView(view, 2131296442, "field 'overviewCard'");
-    view = finder.findRequiredView(source, 2131296463, "field 'scoreCard'");
-    target.scoreCard = finder.castView(view, 2131296463, "field 'scoreCard'");
-    view = finder.findRequiredView(source, 2131296388, "field 'historyCard'");
-    target.historyCard = finder.castView(view, 2131296388, "field 'historyCard'");
-    view = finder.findRequiredView(source, 2131296531, "field 'toolbar'");
-    target.toolbar = finder.castView(view, 2131296531, "field 'toolbar'");
+    view = finder.findRequiredView(source, 2131296379, "field 'frequencyCard'");
+    target.frequencyCard = finder.castView(view, 2131296379, "field 'frequencyCard'");
+    view = finder.findRequiredView(source, 2131296505, "field 'streakCard'");
+    target.streakCard = finder.castView(view, 2131296505, "field 'streakCard'");
+    view = finder.findRequiredView(source, 2131296509, "field 'subtitleCard'");
+    target.subtitleCard = finder.castView(view, 2131296509, "field 'subtitleCard'");
+    view = finder.findRequiredView(source, 2131296443, "field 'overviewCard'");
+    target.overviewCard = finder.castView(view, 2131296443, "field 'overviewCard'");
+    view = finder.findRequiredView(source, 2131296464, "field 'scoreCard'");
+    target.scoreCard = finder.castView(view, 2131296464, "field 'scoreCard'");
+    view = finder.findRequiredView(source, 2131296389, "field 'historyCard'");
+    target.historyCard = finder.castView(view, 2131296389, "field 'historyCard'");
+    view = finder.findRequiredView(source, 2131296532, "field 'toolbar'");
+    target.toolbar = finder.castView(view, 2131296532, "field 'toolbar'");
     return unbinder;
   }
 

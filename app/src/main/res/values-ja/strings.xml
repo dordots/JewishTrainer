@@ -19,8 +19,8 @@
   ~ with this program. If not, see <http://www.gnu.org/licenses/>.
   -->
 <resources>
-  <string name="app_name">ループ習慣トラッカー</string>
-  <string name="main_activity_title">習慣</string>
+  <string name="app_name">אֵיזֶהוּ גִבּוֹר</string>
+    <string name="main_activity_title">אֵיזֶהוּ גִבּוֹר</string>
   <string name="action_settings">設定</string>
   <string name="edit">編集</string>
   <string name="delete">削除</string>

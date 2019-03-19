@@ -19,10 +19,12 @@
 
 package org.basim.uhabits.activities.habits.list;
 
+import android.content.Intent;
 import android.support.annotation.*;
 import android.view.*;
 
 import org.basim.uhabits.*;
+import org.basim.uhabits.activities.intro.IntroActivity;
 import org.basim.uhabits.models.*;
 import org.basim.uhabits.activities.*;
 import org.basim.uhabits.activities.habits.list.model.*;
@@ -88,6 +90,10 @@ public class ListHabitsMenu extends BaseMenu
 
             case R.id.actionAdd:
                 screen.showCreateHabitScreen();
+                return true;
+
+            case R.id.actionIntroSlide:
+                screen.showIntroScreen();
                 return true;
 
             case R.id.actionFAQ:

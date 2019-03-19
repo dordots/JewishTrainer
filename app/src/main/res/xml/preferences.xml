@@ -132,8 +132,8 @@
         <Preference android:title="@string/about">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:targetClass="org.isoron.uhabits.activities.about.AboutActivity"
-                android:targetPackage="org.isoron.uhabits"/>
+                android:targetClass="org.basim.uhabits.activities.about.AboutActivity"
+                android:targetPackage="org.basim.uhabits"/>
         </Preference>
 
     </PreferenceCategory>

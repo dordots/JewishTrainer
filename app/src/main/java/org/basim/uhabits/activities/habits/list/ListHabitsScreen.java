@@ -244,6 +244,7 @@ public class ListHabitsScreen extends BaseScreen
         activity.startActivity(intent);
     }
 
+
     public void showHabitScreen(@NonNull Habit habit)
     {
         Intent intent = intentFactory.startShowHabitActivity(activity, habit);

@@ -234,7 +234,7 @@ public class BaseScreen
     public void showSendFileScreen(@NonNull String archiveFilename)
     {
         File file = new File(archiveFilename);
-        Uri fileUri = getUriForFile(activity, "org.isoron.uhabits", file);
+        Uri fileUri = getUriForFile(activity, "org.basim.uhabits", file);
 
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_SEND);

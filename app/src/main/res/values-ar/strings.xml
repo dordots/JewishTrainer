@@ -19,8 +19,8 @@
   ~ with this program. If not, see <http://www.gnu.org/licenses/>.
   -->
 <resources>
-  <string name="app_name">متعقب العادة لووب</string>
-  <string name="main_activity_title">عادات</string>
+  <string name="app_name">אֵיזֶהוּ גִבּוֹר</string>
+    <string name="main_activity_title">אֵיזֶהוּ גִבּוֹר</string>
   <string name="action_settings">إعدادات</string>
   <string name="edit">تعديل</string>
   <string name="delete">حذف</string>

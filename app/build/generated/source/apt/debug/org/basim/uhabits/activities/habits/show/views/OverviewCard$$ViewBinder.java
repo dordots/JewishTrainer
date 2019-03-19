@@ -14,18 +14,18 @@ public class OverviewCard$$ViewBinder<T extends OverviewCard> implements ViewBin
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131296465, "field 'scoreRing'");
-    target.scoreRing = finder.castView(view, 2131296465, "field 'scoreRing'");
-    view = finder.findRequiredView(source, 2131296464, "field 'scoreLabel'");
-    target.scoreLabel = finder.castView(view, 2131296464, "field 'scoreLabel'");
-    view = finder.findRequiredView(source, 2131296429, "field 'monthDiffLabel'");
-    target.monthDiffLabel = finder.castView(view, 2131296429, "field 'monthDiffLabel'");
-    view = finder.findRequiredView(source, 2131296563, "field 'yearDiffLabel'");
-    target.yearDiffLabel = finder.castView(view, 2131296563, "field 'yearDiffLabel'");
-    view = finder.findRequiredView(source, 2131296535, "field 'totalCountLabel'");
-    target.totalCountLabel = finder.castView(view, 2131296535, "field 'totalCountLabel'");
-    view = finder.findRequiredView(source, 2131296528, "field 'title'");
-    target.title = finder.castView(view, 2131296528, "field 'title'");
+    view = finder.findRequiredView(source, 2131296466, "field 'scoreRing'");
+    target.scoreRing = finder.castView(view, 2131296466, "field 'scoreRing'");
+    view = finder.findRequiredView(source, 2131296465, "field 'scoreLabel'");
+    target.scoreLabel = finder.castView(view, 2131296465, "field 'scoreLabel'");
+    view = finder.findRequiredView(source, 2131296430, "field 'monthDiffLabel'");
+    target.monthDiffLabel = finder.castView(view, 2131296430, "field 'monthDiffLabel'");
+    view = finder.findRequiredView(source, 2131296564, "field 'yearDiffLabel'");
+    target.yearDiffLabel = finder.castView(view, 2131296564, "field 'yearDiffLabel'");
+    view = finder.findRequiredView(source, 2131296536, "field 'totalCountLabel'");
+    target.totalCountLabel = finder.castView(view, 2131296536, "field 'totalCountLabel'");
+    view = finder.findRequiredView(source, 2131296529, "field 'title'");
+    target.title = finder.castView(view, 2131296529, "field 'title'");
     return unbinder;
   }
 

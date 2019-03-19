@@ -15,14 +15,14 @@ public class EditSettingRootView$$ViewBinder<T extends EditSettingRootView> impl
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131296531, "field 'toolbar'");
-    target.toolbar = finder.castView(view, 2131296531, "field 'toolbar'");
-    view = finder.findRequiredView(source, 2131296383, "field 'habitSpinner'");
-    target.habitSpinner = finder.castView(view, 2131296383, "field 'habitSpinner'");
-    view = finder.findRequiredView(source, 2131296275, "field 'actionSpinner'");
-    target.actionSpinner = finder.castView(view, 2131296275, "field 'actionSpinner'");
-    view = finder.findRequiredView(source, 2131296321, "method 'onClickSave'");
-    unbinder.view2131296321 = view;
+    view = finder.findRequiredView(source, 2131296532, "field 'toolbar'");
+    target.toolbar = finder.castView(view, 2131296532, "field 'toolbar'");
+    view = finder.findRequiredView(source, 2131296384, "field 'habitSpinner'");
+    target.habitSpinner = finder.castView(view, 2131296384, "field 'habitSpinner'");
+    view = finder.findRequiredView(source, 2131296276, "field 'actionSpinner'");
+    target.actionSpinner = finder.castView(view, 2131296276, "field 'actionSpinner'");
+    view = finder.findRequiredView(source, 2131296322, "method 'onClickSave'");
+    unbinder.view2131296322 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -39,7 +39,7 @@ public class EditSettingRootView$$ViewBinder<T extends EditSettingRootView> impl
   protected static class InnerUnbinder<T extends EditSettingRootView> implements Unbinder {
     private T target;
 
-    View view2131296321;
+    View view2131296322;
 
     protected InnerUnbinder(T target) {
       this.target = target;
@@ -56,7 +56,7 @@ public class EditSettingRootView$$ViewBinder<T extends EditSettingRootView> impl
       target.toolbar = null;
       target.habitSpinner = null;
       target.actionSpinner = null;
-      view2131296321.setOnClickListener(null);
+      view2131296322.setOnClickListener(null);
     }
   }
 }

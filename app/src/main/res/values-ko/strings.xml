@@ -19,8 +19,8 @@
   ~ with this program. If not, see <http://www.gnu.org/licenses/>.
   -->
 <resources>
-  <string name="app_name">Loop 습관제조기</string>
-  <string name="main_activity_title">습관</string>
+  <string name="app_name">אֵיזֶהוּ גִבּוֹר</string>
+    <string name="main_activity_title">אֵיזֶהוּ גִבּוֹר</string>
   <string name="action_settings">설정</string>
   <string name="edit">수정</string>
   <string name="delete">삭제</string>

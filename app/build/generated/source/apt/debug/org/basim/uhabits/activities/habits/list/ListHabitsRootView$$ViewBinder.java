@@ -14,20 +14,20 @@ public class ListHabitsRootView$$ViewBinder<T extends ListHabitsRootView> implem
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131296413, "field 'listView'");
-    target.listView = finder.castView(view, 2131296413, "field 'listView'");
-    view = finder.findRequiredView(source, 2131296416, "field 'llEmpty'");
-    target.llEmpty = finder.castView(view, 2131296416, "field 'llEmpty'");
-    view = finder.findRequiredView(source, 2131296552, "field 'tvStarEmpty'");
-    target.tvStarEmpty = finder.castView(view, 2131296552, "field 'tvStarEmpty'");
-    view = finder.findRequiredView(source, 2131296531, "field 'toolbar'");
-    target.toolbar = finder.castView(view, 2131296531, "field 'toolbar'");
-    view = finder.findRequiredView(source, 2131296447, "field 'progressBar'");
-    target.progressBar = finder.castView(view, 2131296447, "field 'progressBar'");
-    view = finder.findRequiredView(source, 2131296387, "field 'hintView'");
-    target.hintView = finder.castView(view, 2131296387, "field 'hintView'");
-    view = finder.findRequiredView(source, 2131296384, "field 'header'");
-    target.header = finder.castView(view, 2131296384, "field 'header'");
+    view = finder.findRequiredView(source, 2131296414, "field 'listView'");
+    target.listView = finder.castView(view, 2131296414, "field 'listView'");
+    view = finder.findRequiredView(source, 2131296417, "field 'llEmpty'");
+    target.llEmpty = finder.castView(view, 2131296417, "field 'llEmpty'");
+    view = finder.findRequiredView(source, 2131296553, "field 'tvStarEmpty'");
+    target.tvStarEmpty = finder.castView(view, 2131296553, "field 'tvStarEmpty'");
+    view = finder.findRequiredView(source, 2131296532, "field 'toolbar'");
+    target.toolbar = finder.castView(view, 2131296532, "field 'toolbar'");
+    view = finder.findRequiredView(source, 2131296448, "field 'progressBar'");
+    target.progressBar = finder.castView(view, 2131296448, "field 'progressBar'");
+    view = finder.findRequiredView(source, 2131296388, "field 'hintView'");
+    target.hintView = finder.castView(view, 2131296388, "field 'hintView'");
+    view = finder.findRequiredView(source, 2131296385, "field 'header'");
+    target.header = finder.castView(view, 2131296385, "field 'header'");
     return unbinder;
   }
 

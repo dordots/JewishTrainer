@@ -23,6 +23,12 @@
       tools:context=".MainActivity">
 
     <item
+        android:id="@+id/actionIntroSlide"
+        android:icon="@drawable/ic_information"
+        android:title="@string/add_habit"
+        app:showAsAction="always"/>
+
+    <item
         android:id="@+id/actionAdd"
         android:icon="?iconAdd"
         android:title="@string/add_habit"
@@ -86,6 +92,7 @@
         android:id="@+id/actionFAQ"
         android:orderInCategory="100"
         android:title="@string/help"
+        android:visible="false"
         app:showAsAction="never"/>
 
     <item

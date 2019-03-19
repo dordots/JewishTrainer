@@ -127,7 +127,7 @@ public class SettingsFragment extends PreferenceFragmentCompat
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,
                                           String key)
     {
-        BackupManager.dataChanged("org.isoron.uhabits");
+        BackupManager.dataChanged("org.basim.uhabits");
     }
 
     private void setResultOnPreferenceClick(String key, final int result)

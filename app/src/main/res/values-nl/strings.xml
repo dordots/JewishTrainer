@@ -19,8 +19,8 @@
   ~ with this program. If not, see <http://www.gnu.org/licenses/>.
   -->
 <resources>
-  <string name="app_name">Loop Gewoonte tracker</string>
-  <string name="main_activity_title">Gewoontes</string>
+  <string name="app_name">אֵיזֶהוּ גִבּוֹר</string>
+    <string name="main_activity_title">אֵיזֶהוּ גִבּוֹר</string>
   <string name="action_settings">Instellingen</string>
   <string name="edit">Wijzig</string>
   <string name="delete">Verwijder</string>

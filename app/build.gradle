@@ -5,7 +5,6 @@ apply plugin: 'com.github.triplet.play'
 android {
     compileSdkVersion 27
     buildToolsVersion '28.0.2'
-
 //    signingConfigs {
 //        release {
 //            storeFile file(LOOP_STORE_FILE)
@@ -15,28 +14,23 @@ android {
 //        }
 //    }
     android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true
-
     playAccountConfigs {
         defaultAccountConfig {
             jsonFile = file('../secret/playstore.json')
         }
     }
-
-
     defaultConfig {
         applicationId "org.basim.uhabits"
         minSdkVersion 15
         targetSdkVersion 27
-
         buildConfigField "Integer", "databaseVersion", "15"
         buildConfigField "String", "databaseFilename", "\"uhabits.db\""
-
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         testInstrumentationRunnerArgument "size", "medium"
-
 //        playAccountConfig = playAccountConfigs.defaultAccountConfig
+        versionCode 1
+        versionName '1.0.1'
     }
-
     buildTypes {
         release {
             minifyEnabled false
@@ -47,16 +41,13 @@ android {
             testCoverageEnabled = false
         }
     }
-
     lintOptions {
         checkReleaseBuilds false
     }
-
     compileOptions {
         targetCompatibility 1.8
         sourceCompatibility 1.8
     }
-
     testOptions {
         unitTests.all {
             testLogging {
@@ -66,10 +57,11 @@ android {
             }
         }
     }
+    productFlavors {
+    }
 }
 
 dependencies {
-
     dependencies {
         implementation 'com.google.dagger:dagger:2.2'
         annotationProcessor 'com.google.dagger:dagger-compiler:2.2'
@@ -78,13 +70,11 @@ dependencies {
     androidTestImplementation 'com.android.support.test:rules:0.5'
     androidTestImplementation 'com.android.support.test:runner:0.5'
     androidTestImplementation 'com.google.auto.factory:auto-factory:1.0-beta3'
-    androidTestImplementation "com.google.dexmaker:dexmaker:1.2"
+    androidTestImplementation 'com.google.dexmaker:dexmaker:1.2'
     androidTestImplementation 'com.google.dexmaker:dexmaker-mockito:1.2'
     androidTestImplementation 'org.mockito:mockito-core:1.10.19'
-
     annotationProcessor 'com.google.dagger:dagger-compiler:2.2'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.0.1'
-
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support:design:27.1.1'
     implementation 'com.android.support:preference-v14:27.1.1'
@@ -97,22 +87,16 @@ dependencies {
     implementation 'com.opencsv:opencsv:3.7'
     implementation 'org.apmem.tools:layouts:1.10@aar'
     implementation 'org.jetbrains:annotations-java5:15.0'
-
     compileOnly 'javax.annotation:jsr250-api:1.0'
-
-
     testImplementation 'junit:junit:4.12'
     testImplementation 'org.hamcrest:hamcrest-library:1.3'
     testImplementation 'org.mockito:mockito-core:1.10.19'
-
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.1') {
         exclude group: 'com.android.support'
     }
-
     androidTestImplementation('com.android.support.test.espresso:espresso-intents:2.2.1') {
         exclude group: 'com.android.support'
     }
-
     androidTestImplementation('com.android.support.test.espresso:espresso-contrib:2.2.1') {
         exclude group: 'com.android.support'
     }

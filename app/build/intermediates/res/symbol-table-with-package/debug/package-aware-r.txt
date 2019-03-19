@@ -1198,6 +1198,7 @@ drawable ic_arrow_down_24dp
 drawable ic_arrow_forward_white_24px
 drawable ic_colorpicker_swatch_selected
 drawable ic_done_white_24px
+drawable ic_information
 drawable ic_navigate_next_white_24dp
 drawable ic_notification
 drawable ic_repeat_black
@@ -1252,6 +1253,7 @@ id actionAdd
 id actionFAQ
 id actionHideArchived
 id actionHideCompleted
+id actionIntroSlide
 id actionSettings
 id actionSortColor
 id actionSortManual
