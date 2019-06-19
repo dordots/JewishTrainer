@@ -90,7 +90,8 @@
                 <TextView
                     android:id="@+id/tvTranslate"
                     style="@style/About.Item.Clickable"
-                    android:text="@string/help_translate"/>
+                    android:text="@string/help_translate"
+                    android:visibility="gone"/>
 
                 <TextView
                     android:id="@+id/tvSource"
@@ -131,7 +132,8 @@
 
             <LinearLayout
                 style="@style/Card"
-                android:gravity="center">
+                android:gravity="center"
+                android:visibility="gone">
 
                 <TextView
                     style="@style/CardHeader"

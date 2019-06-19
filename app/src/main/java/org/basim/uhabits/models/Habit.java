@@ -69,6 +69,12 @@ public class Habit
     @Nullable
     private Reminder reminder;
 
+    @Nullable
+    private String colorHex;
+
+    @Nullable
+    private String category;
+
     private ModelObservable observable = new ModelObservable();
 
     /**
@@ -273,5 +279,23 @@ public class Habit
             .append("color", color)
             .append("archived", archived)
             .toString();
+    }
+
+    @Nullable
+    public String getColorHex() {
+        return colorHex;
+    }
+
+    public void setColorHex(@Nullable String colorHex) {
+        this.colorHex = colorHex;
+    }
+
+    @Nullable
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(@Nullable String category) {
+        this.category = category;
     }
 }

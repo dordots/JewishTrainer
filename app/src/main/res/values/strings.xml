@@ -206,4 +206,7 @@
     <string name="export">Export</string>
     <string name="customize_notification_summary">Change sound, vibration, light and other notification settings</string>
     <string name="customize_notification">Customize notifications</string>
+    <string name="no_internet_title">Internet Connection</string>
+    <string name="no_internet_title_content">Please connect to the internet</string>
+
 </resources>

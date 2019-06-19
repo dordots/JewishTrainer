@@ -265,4 +265,8 @@
            parent="@style/Theme.AppCompat.Dialog">
         <item name="windowNoTitle">false</item>
     </style>
+
+    <style name="CheckBoxTintTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/green_700</item>
+    </style>
 </resources>

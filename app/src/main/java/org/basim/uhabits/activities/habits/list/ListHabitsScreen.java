@@ -222,6 +222,11 @@ public class ListHabitsScreen extends BaseScreen
         activity.showDialog(picker, "picker");
     }
 
+    public void showHabitsPopuptScreen(ListHabitsScreen screen)
+    {
+        CustomPopups.showCategoryyPopup(activity, screen);
+    }
+
     public void showCreateHabitScreen()
     {
         activity.showDialog(createHabitDialogFactory.create(), "editHabit");
@@ -301,4 +306,7 @@ public class ListHabitsScreen extends BaseScreen
         themeSwitcher.toggleNightMode();
         activity.restartWithFade();
     }
+
+
+
 }

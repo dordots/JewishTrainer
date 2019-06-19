@@ -19,6 +19,7 @@
 
 package org.basim.uhabits.activities.common.views;
 
+import android.graphics.Color;
 import android.support.test.runner.*;
 import android.test.suitebuilder.annotation.*;
 import android.util.*;

@@ -25,7 +25,6 @@
     <item
         android:id="@+id/actionIntroSlide"
         android:icon="@drawable/ic_information"
-        android:title="@string/add_habit"
         app:showAsAction="always"/>
 
     <item

@@ -20,13 +20,19 @@
 package org.basim.uhabits.activities.habits.edit;
 
 import android.annotation.*;
+import android.graphics.Color;
 import android.support.v4.app.*;
+import android.text.TextUtils;
 import android.view.*;
 import android.widget.*;
+
+import com.yarolegovich.lovelydialog.LovelyChoiceDialog;
 
 import org.basim.uhabits.R;
 import org.basim.uhabits.models.*;
 import org.basim.uhabits.utils.*;
+
+import java.util.List;
 
 import butterknife.*;
 
@@ -69,19 +75,33 @@ public class BaseDialogHelper
 
     protected void populateForm(final Habit habit)
     {
-        if (habit.getName() != null) tvName.setText(habit.getName());
+
+
+        if (habit.getName() != null){
+            tvName.setText(habit.getName());
+
+        } else {
+            if (Constants.selectedHabit != null){
+                tvName.setText(Constants.selectedHabit);
+                tvName.setKeyListener(null);
+            }
+        }
+
         if (habit.getDescription() != null)
             tvDescription.setText(habit.getDescription());
 
         populateColor(habit.getColor());
         populateFrequencyFields(habit);
         populateReminderFields(habit);
+        Constants.selectedHabit = null;
     }
 
     void parseFormIntoHabit(Habit habit)
     {
-        habit.setName(tvName.getText().toString().trim());
+        habit.setName(tvName.getText().toString());
         habit.setDescription(tvDescription.getText().toString().trim());
+        habit.setColorHex(Constants.selectedColor);
+        habit.setCategory(Constants.selectedCategory);
         String freqNum = tvFreqNum.getText().toString();
         String freqDen = tvFreqDen.getText().toString();
         if (!freqNum.isEmpty() && !freqDen.isEmpty())
@@ -94,8 +114,10 @@ public class BaseDialogHelper
 
     void populateColor(int paletteColor)
     {
-        tvName.setTextColor(
-            ColorUtils.getColor(frag.getContext(), paletteColor));
+//        tvName.setTextColor(
+//            ColorUtils.getColor(frag.getContext(), paletteColor));
+        tvName.setTextColor(Color.parseColor(Constants.selectedColor));
+
     }
 
     @SuppressLint("SetTextI18n")

@@ -34,7 +34,7 @@ import javax.annotation.*;
 public abstract class BaseMenu
 {
     @NonNull
-    private final BaseActivity activity;
+    protected final BaseActivity activity;
 
     public BaseMenu(@NonNull BaseActivity activity)
     {

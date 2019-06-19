@@ -28,8 +28,8 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         testInstrumentationRunnerArgument "size", "medium"
 //        playAccountConfig = playAccountConfigs.defaultAccountConfig
-        versionCode 1
-        versionName '1.0.1'
+        versionCode 4
+        versionName '1.0.4'
     }
     buildTypes {
         release {
@@ -100,6 +100,9 @@ dependencies {
     androidTestImplementation('com.android.support.test.espresso:espresso-contrib:2.2.1') {
         exclude group: 'com.android.support'
     }
+    implementation 'com.squareup.okhttp:okhttp:2.4.0'
+    implementation 'com.squareup.okhttp:okhttp-urlconnection:2.2.0'
+    compile 'com.yarolegovich:lovely-dialog:1.1.0'
 }
 
 

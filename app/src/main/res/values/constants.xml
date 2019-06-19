@@ -22,7 +22,7 @@
     <string name="playStoreURL">https://www.startach.org.il/start4up</string>
     <string name="feedbackURL" formatted="false">mailto:light4up@gmail.com?subject=Feedback%20about%20Loop%20Habit%20Tracker</string>
     <string name="bugReportURL" formatted="false">mailto:light4up@gmail.com?subject=Bug%20Report%20-%20Loop%20Habit%20Tracker</string>
-    <string name="sourceCodeURL">https://github.com/iSoron/uhabits</string>
+    <string name="sourceCodeURL">https://github.com/dordots/JewishTrainer/  </string>
     <string name="translateURL">http://translate.loophabits.org/</string>
     <string name="bugReportTo">dev@loophabits.org</string>
     <string name="bugReportSubject">Bug Report - Loop Habit Tracker</string>
