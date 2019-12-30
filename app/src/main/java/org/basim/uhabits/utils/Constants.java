@@ -10,4 +10,5 @@ public class Constants {
     public static String selectedHabit = null;
     public static String selectedCategory = null;
     public static String selectedColor = null;
+    public static int categoryPos = 0;
 }

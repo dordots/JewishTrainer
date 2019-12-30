@@ -1168,6 +1168,7 @@ drawable applogo
 drawable appsplash
 drawable avd_hide_password
 drawable avd_show_password
+drawable bottom
 drawable card_amoled_background
 drawable card_dark_background
 drawable card_light_background
@@ -1203,7 +1204,9 @@ drawable ic_arrow_down_24dp
 drawable ic_arrow_forward_white_24px
 drawable ic_colorpicker_swatch_selected
 drawable ic_done_white_24px
+drawable ic_gift
 drawable ic_information
+drawable ic_lion
 drawable ic_navigate_next_white_24dp
 drawable ic_notification
 drawable ic_repeat_black
@@ -1213,6 +1216,7 @@ drawable indicator_dot_white
 drawable intro_icon_1
 drawable intro_icon_2
 drawable intro_icon_4
+drawable logo
 drawable logonew
 drawable logotrans
 drawable navigation_empty_icon
@@ -1237,6 +1241,7 @@ drawable selected_box_amoled
 drawable selected_box_dark
 drawable selected_box_light
 drawable splash
+drawable splash2
 drawable stripe
 drawable toolbar_shadow
 drawable tooltip_frame_dark
@@ -1248,6 +1253,8 @@ drawable widget_preview_frequency
 drawable widget_preview_history
 drawable widget_preview_score
 drawable widget_preview_streaks
+font heebo_extrabold
+font heebo_medium
 id ALT
 id CTRL
 id FUNCTION
@@ -1400,6 +1407,7 @@ id info
 id innerFrame
 id italic
 id item_touch_helper_previous_elevation
+id iv_gift
 id label
 id largeLabel
 id ld_btn_confirm
@@ -1568,6 +1576,7 @@ id tvSource
 id tvStarEmpty
 id tvTranslate
 id tvVersion
+id tv_name
 id uniform
 id up
 id useLogo
@@ -1788,6 +1797,7 @@ string could_not_export
 string could_not_import
 string create_habit
 string current_streaks
+string custom
 string custom_frequency
 string customize_notification
 string customize_notification_summary

@@ -1,374 +1,378 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:21:1-245:12
-INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:21:1-245:12
-INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:21:1-245:12
-INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:21:1-245:12
-MERGED from [com.yarolegovich:lovely-dialog:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/lovely-dialog-1.1.0.aar/43e2018c8e07df016a5a56fced7addbd/AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:design:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/bf4d3fa010edba126037edaa5dc3bd6f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:preference-v14:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/preference-v14-27.1.1.aar/56e45abafe74d982de5aa0d76a52c321/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.paolorotolo:appintro:3.4.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/appintro-3.4.0.aar/a942aff755d3f131bb87013abe63055e/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:preference-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/preference-v7-27.1.1.aar/2238fb06e8fe978a131ad604e52ca205/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f132c376ddc7b1dee5ef13039881cc02/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/85eb7341e5231dda6fd10912ae359e24/AndroidManifest.xml:17:1-22:12
-MERGED from [com.getpebble:pebblekit:3.0.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/pebblekit-3.0.0.aar/3a1cd4d583daa1a24c7bd3d512f64b09/AndroidManifest.xml:2:1-11:12
-MERGED from [com.jakewharton:butterknife:8.0.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/butterknife-8.0.1.aar/803e65d640e7571ead21c275d5a1384d/AndroidManifest.xml:2:1-7:12
-MERGED from [org.apmem.tools:layouts:1.10] /Users/basim/.gradle/caches/transforms-1/files-1.1/layouts-1.10.aar/73350e17e16b3beea8e48e72fdde4686/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/2d28ea04b921060d84f8e5f715ff1785/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/dcf70d97e5ebbe4b43e0e205cd0e38a5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3266697267d89aded9376a3561de8d68/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2b0a558962d8b09df4795dce9eae37fa/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0911ef9bb26f68cd15779642bf151cde/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/53bb8d882fc761aaf442690ccfd5c4b3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/adb892a7e11fe653406f23f958674c00/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/9ce2cd3f4d25e771a1764bde60d4472d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ff9546ef219cb17f71f2c4bdc32ddab6/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/046b6d6e575db1d8749eeb3874950046/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/40a1af1398d31d0aa7b4693116d53d4d/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6f4dcfa0fb965123a277b0bcb8c041b3/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7d4646c0e11bcc89272cd79620af1114/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:21:1-245:12
-INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:21:1-245:12
-INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:21:1-245:12
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:21:1-246:12
+INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:21:1-246:12
+INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:21:1-246:12
+INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:21:1-246:12
+MERGED from [com.yarolegovich:lovely-dialog:1.1.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\lovely-dialog-1.1.0.aar\5b59b1576691567b11ce7265a4738061\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\f0f6f4ff8f3cdb0433560328a33a1faf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:preference-v14:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\preference-v14-27.1.1.aar\2a31fa40e1a1b9f592a98bfe62e39a8a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.paolorotolo:appintro:3.4.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\appintro-3.4.0.aar\77cfd3dde0524c2c5ac1021efb82fb0d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:preference-v7:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\preference-v7-27.1.1.aar\a640fe058b417a806fddde5f6de34d88\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\0ba5bb480c6ff3b5ed47bf956be430bc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\0feeda1e3a8c9db4030ef18d38889e73\AndroidManifest.xml:17:1-22:12
+MERGED from [com.getpebble:pebblekit:3.0.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\pebblekit-3.0.0.aar\e5ee771283d40ed9f6fd828b51774564\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton:butterknife:8.0.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\butterknife-8.0.1.aar\457f4d14c9d411adac8dddb4d0255156\AndroidManifest.xml:2:1-7:12
+MERGED from [org.apmem.tools:layouts:1.10] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\layouts-1.10.aar\2f839d1b4ec403b042a607c528cb43b7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\c74ebec3f8c3ac4869653f7447791f33\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\58b5d93ef793b63190948536992530b9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\b76e5bdcc806eefaf977e5e23878ff23\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\db077e35f2d1e9ea2c1caa48861ba896\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\e1904811b5e6b1ba7cfa41f1bf4ab357\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\35c4360f0f17e9bd74b6618f027363b0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b45816cab08bfa7c467c6908a7ee514d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\a76f299fd4bac3f3f1b5df6f63960e6a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\248cb803dfe19844cff6a3d5dcf5e480\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\010c4f2196451b72e87ee9f10da1d59f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\4be88799a24d12acd7266f5db55fe1b0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b0b27675d9630021769ec5ef38a0f776\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\aba800af7ab10af77e2eda7c940a5c76\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:21:1-246:12
+INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:21:1-246:12
+INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:21:1-246:12
 	package
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:22:5-32
-		INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:22:5-32
+		INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:25:5-32
-		INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:25:5-32
+		INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:21:11-57
 	xmlns:android
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:23:5-63
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:23:5-63
 	android:versionCode
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:24:5-29
-		INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:24:5-29
+		INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:27:5-79
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:27:5-79
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:27:22-76
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:27:22-76
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:28:5-65
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:28:5-65
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:28:22-63
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:28:22-63
 uses-permission#android.permission.INTERNET
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:29:5-66
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:29:5-66
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:29:22-64
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:29:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:31:5-33:37
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:31:5-33:37
 	android:maxSdkVersion
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:33:9-35
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:33:9-35
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:32:9-64
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:32:9-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:35:5-37:37
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:35:5-37:37
 	android:maxSdkVersion
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:37:9-35
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:37:9-35
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:36:9-65
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:36:9-65
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:39:5-80
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:39:5-80
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:39:22-78
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:39:22-78
 application
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:41:5-244:19
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:41:5-245:19
 	android:backupAgent
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:44:9-66
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:44:9-66
 	android:supportsRtl
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:47:9-35
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:47:9-35
 	android:label
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:46:9-52
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:46:9-52
+	tools:ignore
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:49:9-48
 	android:icon
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:45:9-41
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:45:9-41
 	android:allowBackup
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:43:9-35
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:43:9-35
 	android:theme
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:48:9-44
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:48:9-44
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:42:9-59
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:42:9-59
 meta-data#com.google.android.backup.api_key
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:50:9-52:81
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:51:9-53:81
 	android:value
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:52:13-79
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:53:13-79
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:51:13-61
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:52:13-61
 activity#org.basim.uhabits.activities.habits.list.ListHabitsActivity
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:54:9-58:45
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:55:9-59:45
 	android:label
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:57:13-56
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:58:13-56
 	android:launchMode
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:58:13-43
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:59:13-43
 	android:exported
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:56:13-36
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:57:13-36
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:55:13-87
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:56:13-87
 activity-alias#org.basim.uhabits.MainActivity
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:60:9-66:26
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:61:9-67:26
 	android:label
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:62:13-56
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:63:13-56
 	android:launchMode
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:63:13-43
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:64:13-43
 	android:targetActivity
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:64:13-97
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:65:13-97
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:61:13-41
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:62:13-41
 activity#org.basim.uhabits.SplashScreen
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:68:9-74:20
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:69:9-75:20
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:69:13-58
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:70:13-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:70:13-73:29
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:71:13-74:29
 	android:label
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:70:28-60
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:71:28-60
 action#android.intent.action.MAIN
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:71:17-68
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:72:17-68
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:71:25-66
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:72:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:72:17-76
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:73:17-76
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:72:27-74
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:73:27-74
 activity#org.basim.uhabits.activities.habits.show.ShowHabitActivity
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:77:9-83:20
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:78:9-84:20
 	android:label
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:79:13-62
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:80:13-62
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:78:13-86
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:79:13-86
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:80:13-82:94
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:81:13-83:94
 	android:value
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:82:17-92
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:83:17-92
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:81:17-63
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:82:17-63
 activity#org.basim.uhabits.activities.settings.SettingsActivity
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:85:9-91:20
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:86:9-92:20
 	android:label
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:87:13-45
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:88:13-45
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:86:13-82
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:87:13-82
 activity#org.basim.uhabits.activities.intro.IntroActivity
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:93:9-96:71
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:94:9-97:71
 	android:label
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:95:13-29
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:96:13-29
 	android:theme
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:96:13-69
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:97:13-69
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:94:13-76
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:95:13-76
 activity#org.basim.uhabits.widgets.HabitPickerDialog
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:98:9-104:20
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:99:9-105:20
 	android:theme
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:100:13-64
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:101:13-64
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:99:13-71
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:100:13-71
 intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGURE
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:101:13-103:29
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:102:13-104:29
 action#android.appwidget.action.APPWIDGET_CONFIGURE
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:102:17-86
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:103:17-86
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:102:25-84
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:103:25-84
 activity#org.basim.uhabits.activities.about.AboutActivity
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:106:9-112:20
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:107:9-113:20
 	android:label
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:108:13-42
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:109:13-42
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:107:13-76
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:108:13-76
 receiver#org.basim.uhabits.widgets.CheckmarkWidgetProvider
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:114:9-124:20
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:115:9-125:20
 	android:label
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:116:13-46
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:117:13-46
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:115:13-77
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:116:13-77
 intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:117:13-119:29
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:118:13-120:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:118:17-83
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:119:17-83
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:118:25-81
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:119:25-81
 meta-data#android.appwidget.provider
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:121:13-123:64
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:122:13-124:64
 	android:resource
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:123:17-62
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:124:17-62
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:122:17-58
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:123:17-58
 receiver#org.basim.uhabits.widgets.HistoryWidgetProvider
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:126:9-136:20
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:127:9-137:20
 	android:label
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:128:13-44
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:129:13-44
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:127:13-75
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:128:13-75
 receiver#org.basim.uhabits.widgets.ScoreWidgetProvider
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:138:9-148:20
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:139:9-149:20
 	android:label
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:140:13-51
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:141:13-51
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:139:13-73
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:140:13-73
 receiver#org.basim.uhabits.widgets.StreakWidgetProvider
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:150:9-160:20
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:151:9-161:20
 	android:label
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:152:13-44
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:153:13-44
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:151:13-74
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:152:13-74
 receiver#org.basim.uhabits.widgets.FrequencyWidgetProvider
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:162:9-172:20
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:163:9-173:20
 	android:label
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:164:13-46
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:165:13-46
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:163:13-77
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:164:13-77
 receiver#org.basim.uhabits.receivers.ReminderReceiver
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:174:9-178:20
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:175:9-179:20
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:174:19-78
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:175:19-78
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:175:13-177:29
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:176:13-178:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:176:17-78
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:177:17-78
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:176:25-76
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:177:25-76
 receiver#org.basim.uhabits.receivers.WidgetReceiver
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:180:9-204:20
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:181:9-205:20
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:180:19-76
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:181:19-76
 intent-filter#action:name:org.isoron.uhabits.ACTION_TOGGLE_REPETITION+category:name:android.intent.category.DEFAULT+data:host:org.isoron.uhabits+data:scheme:content
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:181:13-187:29
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:182:13-188:29
 category#android.intent.category.DEFAULT
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:182:17-75
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:183:17-75
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:182:27-73
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:183:27-73
 action#org.isoron.uhabits.ACTION_TOGGLE_REPETITION
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:183:17-85
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:184:17-85
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:183:25-83
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:184:25-83
 data
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:184:17-186:47
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:185:17-187:47
 	android:host
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:185:21-54
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:186:21-54
 	android:scheme
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:186:21-45
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:187:21-45
 intent-filter#action:name:org.isoron.uhabits.ACTION_ADD_REPETITION+category:name:android.intent.category.DEFAULT+data:host:org.isoron.uhabits+data:scheme:content
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:189:13-195:29
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:190:13-196:29
 action#org.isoron.uhabits.ACTION_ADD_REPETITION
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:191:17-82
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:192:17-82
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:191:25-80
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:192:25-80
 intent-filter#action:name:org.isoron.uhabits.ACTION_REMOVE_REPETITION+category:name:android.intent.category.DEFAULT+data:host:org.isoron.uhabits+data:scheme:content
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:197:13-203:29
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:198:13-204:29
 action#org.isoron.uhabits.ACTION_REMOVE_REPETITION
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:199:17-85
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:200:17-85
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:199:25-83
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:200:25-83
 receiver#org.basim.uhabits.receivers.PebbleReceiver
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:207:9-211:20
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:208:9-212:20
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:207:19-76
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:208:19-76
 intent-filter#action:name:com.getpebble.action.app.RECEIVE
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:208:13-210:29
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:209:13-211:29
 action#com.getpebble.action.app.RECEIVE
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:209:17-74
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:210:17-74
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:209:25-72
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:210:25-72
 activity#org.basim.uhabits.automation.EditSettingActivity
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:214:9-223:20
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:215:9-224:20
 	android:label
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:218:13-45
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:219:13-45
 	android:exported
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:216:13-36
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:217:13-36
 	android:icon
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:217:13-47
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:218:13-47
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:215:13-76
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:216:13-76
 intent-filter#action:name:com.twofortyfouram.locale.intent.action.EDIT_SETTING
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:219:13-222:29
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:220:13-223:29
 action#com.twofortyfouram.locale.intent.action.EDIT_SETTING
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:220:17-221:90
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:221:17-222:90
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:221:21-88
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:222:21-88
 receiver#org.basim.uhabits.automation.FireSettingReceiver
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:226:9-232:20
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:227:9-233:20
 	android:exported
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:228:13-36
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:229:13-36
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:227:13-76
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:228:13-76
 intent-filter#action:name:com.twofortyfouram.locale.intent.action.FIRE_SETTING
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:229:13-231:29
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:230:13-232:29
 action#com.twofortyfouram.locale.intent.action.FIRE_SETTING
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:230:17-94
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:231:17-94
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:230:25-92
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:231:25-92
 provider#android.support.v4.content.FileProvider
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:234:9-242:20
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:235:9-243:20
 	android:grantUriPermissions
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:238:13-47
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:239:13-47
 	android:authorities
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:236:13-52
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:237:13-52
 	android:exported
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:237:13-37
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:238:13-37
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:235:13-67
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:236:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:239:13-241:54
+ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:240:13-242:54
 	android:resource
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:241:17-51
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:242:17-51
 	android:name
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml:240:17-67
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml:241:17-67
 uses-sdk
-INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml
-INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml
-MERGED from [com.yarolegovich:lovely-dialog:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/lovely-dialog-1.1.0.aar/43e2018c8e07df016a5a56fced7addbd/AndroidManifest.xml:8:5-10:41
-MERGED from [com.yarolegovich:lovely-dialog:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/lovely-dialog-1.1.0.aar/43e2018c8e07df016a5a56fced7addbd/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:design:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/bf4d3fa010edba126037edaa5dc3bd6f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/bf4d3fa010edba126037edaa5dc3bd6f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:preference-v14:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/preference-v14-27.1.1.aar/56e45abafe74d982de5aa0d76a52c321/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:preference-v14:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/preference-v14-27.1.1.aar/56e45abafe74d982de5aa0d76a52c321/AndroidManifest.xml:20:5-44
-MERGED from [com.github.paolorotolo:appintro:3.4.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/appintro-3.4.0.aar/a942aff755d3f131bb87013abe63055e/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.paolorotolo:appintro:3.4.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/appintro-3.4.0.aar/a942aff755d3f131bb87013abe63055e/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:preference-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/preference-v7-27.1.1.aar/2238fb06e8fe978a131ad604e52ca205/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:preference-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/preference-v7-27.1.1.aar/2238fb06e8fe978a131ad604e52ca205/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f132c376ddc7b1dee5ef13039881cc02/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f132c376ddc7b1dee5ef13039881cc02/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/85eb7341e5231dda6fd10912ae359e24/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/85eb7341e5231dda6fd10912ae359e24/AndroidManifest.xml:20:5-44
-MERGED from [com.getpebble:pebblekit:3.0.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/pebblekit-3.0.0.aar/3a1cd4d583daa1a24c7bd3d512f64b09/AndroidManifest.xml:7:5-9:41
-MERGED from [com.getpebble:pebblekit:3.0.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/pebblekit-3.0.0.aar/3a1cd4d583daa1a24c7bd3d512f64b09/AndroidManifest.xml:7:5-9:41
-MERGED from [com.jakewharton:butterknife:8.0.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/butterknife-8.0.1.aar/803e65d640e7571ead21c275d5a1384d/AndroidManifest.xml:5:5-43
-MERGED from [com.jakewharton:butterknife:8.0.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/butterknife-8.0.1.aar/803e65d640e7571ead21c275d5a1384d/AndroidManifest.xml:5:5-43
-MERGED from [org.apmem.tools:layouts:1.10] /Users/basim/.gradle/caches/transforms-1/files-1.1/layouts-1.10.aar/73350e17e16b3beea8e48e72fdde4686/AndroidManifest.xml:7:5-9:41
-MERGED from [org.apmem.tools:layouts:1.10] /Users/basim/.gradle/caches/transforms-1/files-1.1/layouts-1.10.aar/73350e17e16b3beea8e48e72fdde4686/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/2d28ea04b921060d84f8e5f715ff1785/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/2d28ea04b921060d84f8e5f715ff1785/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/dcf70d97e5ebbe4b43e0e205cd0e38a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/dcf70d97e5ebbe4b43e0e205cd0e38a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3266697267d89aded9376a3561de8d68/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3266697267d89aded9376a3561de8d68/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2b0a558962d8b09df4795dce9eae37fa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2b0a558962d8b09df4795dce9eae37fa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0911ef9bb26f68cd15779642bf151cde/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0911ef9bb26f68cd15779642bf151cde/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/53bb8d882fc761aaf442690ccfd5c4b3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/53bb8d882fc761aaf442690ccfd5c4b3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/adb892a7e11fe653406f23f958674c00/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/adb892a7e11fe653406f23f958674c00/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/9ce2cd3f4d25e771a1764bde60d4472d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/9ce2cd3f4d25e771a1764bde60d4472d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ff9546ef219cb17f71f2c4bdc32ddab6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/basim/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ff9546ef219cb17f71f2c4bdc32ddab6/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/046b6d6e575db1d8749eeb3874950046/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/046b6d6e575db1d8749eeb3874950046/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/40a1af1398d31d0aa7b4693116d53d4d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/40a1af1398d31d0aa7b4693116d53d4d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6f4dcfa0fb965123a277b0bcb8c041b3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6f4dcfa0fb965123a277b0bcb8c041b3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7d4646c0e11bcc89272cd79620af1114/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/basim/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7d4646c0e11bcc89272cd79620af1114/AndroidManifest.xml:20:5-44
-INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml
-INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml
+INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml
+MERGED from [com.yarolegovich:lovely-dialog:1.1.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\lovely-dialog-1.1.0.aar\5b59b1576691567b11ce7265a4738061\AndroidManifest.xml:8:5-10:41
+MERGED from [com.yarolegovich:lovely-dialog:1.1.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\lovely-dialog-1.1.0.aar\5b59b1576691567b11ce7265a4738061\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\f0f6f4ff8f3cdb0433560328a33a1faf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\f0f6f4ff8f3cdb0433560328a33a1faf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v14:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\preference-v14-27.1.1.aar\2a31fa40e1a1b9f592a98bfe62e39a8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v14:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\preference-v14-27.1.1.aar\2a31fa40e1a1b9f592a98bfe62e39a8a\AndroidManifest.xml:20:5-44
+MERGED from [com.github.paolorotolo:appintro:3.4.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\appintro-3.4.0.aar\77cfd3dde0524c2c5ac1021efb82fb0d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.paolorotolo:appintro:3.4.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\appintro-3.4.0.aar\77cfd3dde0524c2c5ac1021efb82fb0d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:preference-v7:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\preference-v7-27.1.1.aar\a640fe058b417a806fddde5f6de34d88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v7:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\preference-v7-27.1.1.aar\a640fe058b417a806fddde5f6de34d88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\0ba5bb480c6ff3b5ed47bf956be430bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\0ba5bb480c6ff3b5ed47bf956be430bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\0feeda1e3a8c9db4030ef18d38889e73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\0feeda1e3a8c9db4030ef18d38889e73\AndroidManifest.xml:20:5-44
+MERGED from [com.getpebble:pebblekit:3.0.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\pebblekit-3.0.0.aar\e5ee771283d40ed9f6fd828b51774564\AndroidManifest.xml:7:5-9:41
+MERGED from [com.getpebble:pebblekit:3.0.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\pebblekit-3.0.0.aar\e5ee771283d40ed9f6fd828b51774564\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton:butterknife:8.0.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\butterknife-8.0.1.aar\457f4d14c9d411adac8dddb4d0255156\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.0.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\butterknife-8.0.1.aar\457f4d14c9d411adac8dddb4d0255156\AndroidManifest.xml:5:5-43
+MERGED from [org.apmem.tools:layouts:1.10] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\layouts-1.10.aar\2f839d1b4ec403b042a607c528cb43b7\AndroidManifest.xml:7:5-9:41
+MERGED from [org.apmem.tools:layouts:1.10] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\layouts-1.10.aar\2f839d1b4ec403b042a607c528cb43b7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\c74ebec3f8c3ac4869653f7447791f33\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\c74ebec3f8c3ac4869653f7447791f33\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\58b5d93ef793b63190948536992530b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\58b5d93ef793b63190948536992530b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\b76e5bdcc806eefaf977e5e23878ff23\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\b76e5bdcc806eefaf977e5e23878ff23\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\db077e35f2d1e9ea2c1caa48861ba896\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\db077e35f2d1e9ea2c1caa48861ba896\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\e1904811b5e6b1ba7cfa41f1bf4ab357\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\e1904811b5e6b1ba7cfa41f1bf4ab357\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\35c4360f0f17e9bd74b6618f027363b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\35c4360f0f17e9bd74b6618f027363b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b45816cab08bfa7c467c6908a7ee514d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b45816cab08bfa7c467c6908a7ee514d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\a76f299fd4bac3f3f1b5df6f63960e6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\a76f299fd4bac3f3f1b5df6f63960e6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\248cb803dfe19844cff6a3d5dcf5e480\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\248cb803dfe19844cff6a3d5dcf5e480\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\010c4f2196451b72e87ee9f10da1d59f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\010c4f2196451b72e87ee9f10da1d59f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\4be88799a24d12acd7266f5db55fe1b0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\4be88799a24d12acd7266f5db55fe1b0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b0b27675d9630021769ec5ef38a0f776\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b0b27675d9630021769ec5ef38a0f776\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\aba800af7ab10af77e2eda7c940a5c76\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\DeLL\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\aba800af7ab10af77e2eda7c940a5c76\AndroidManifest.xml:20:5-44
+INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml
+		INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml
-		ADDED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/basim/AndroidStudioProjects/JewishTrainer/app/src/main/AndroidManifest.xml
+		INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Studio Projects\JewishTrainerNew\app\src\main\AndroidManifest.xml

@@ -21,6 +21,7 @@ package org.basim.uhabits.activities.habits.list.views;
 
 import android.annotation.*;
 import android.content.*;
+import android.graphics.Color;
 import android.graphics.drawable.*;
 import android.os.*;
 import android.support.annotation.*;
@@ -222,9 +223,17 @@ public class HabitCardView extends FrameLayout
     {
         int color = getActiveColor(habit);
         label.setText(habit.getName());
-        label.setTextColor(color);
-        scoreRing.setColor(color);
-        checkmarkPanel.setColor(color);
+        try{
+            label.setTextColor(Color.parseColor(habit.getColorHex()));
+            scoreRing.setColor(Color.parseColor(habit.getColorHex()));
+            checkmarkPanel.setColor(Color.parseColor(habit.getColorHex()));
+
+        } catch (Exception e){
+            label.setTextColor(color);
+            scoreRing.setColor(color);
+            checkmarkPanel.setColor(color);
+        }
+
         postInvalidate();
     }
 

@@ -90,7 +90,7 @@ public class BaseDialogHelper
         if (habit.getDescription() != null)
             tvDescription.setText(habit.getDescription());
 
-        populateColor(habit.getColor());
+        populateColor(habit);
         populateFrequencyFields(habit);
         populateReminderFields(habit);
         Constants.selectedHabit = null;
@@ -100,7 +100,6 @@ public class BaseDialogHelper
     {
         habit.setName(tvName.getText().toString());
         habit.setDescription(tvDescription.getText().toString().trim());
-        habit.setColorHex(Constants.selectedColor);
         habit.setCategory(Constants.selectedCategory);
         String freqNum = tvFreqNum.getText().toString();
         String freqDen = tvFreqDen.getText().toString();
@@ -112,11 +111,21 @@ public class BaseDialogHelper
         }
     }
 
-    void populateColor(int paletteColor)
+    void populateColor(Habit obj)
     {
-//        tvName.setTextColor(
-//            ColorUtils.getColor(frag.getContext(), paletteColor));
-        tvName.setTextColor(Color.parseColor(Constants.selectedColor));
+
+        try {
+            obj.setColor(Integer.valueOf(Constants.selectedColor));
+            tvName.setTextColor(Color.parseColor(Constants.selectedColor));
+        } catch (Exception e){
+
+            try {
+                tvName.setTextColor(Color.parseColor(obj.getColorHex()));
+            } catch (Exception e1){
+                tvName.setTextColor(
+                        ColorUtils.getColor(frag.getContext(), obj.getColor()));
+            }
+        }
 
     }
 
@@ -188,7 +197,6 @@ public class BaseDialogHelper
     boolean validate(Habit habit)
     {
         Boolean valid = true;
-
         if (habit.getName().length() == 0)
         {
             tvName.setError(

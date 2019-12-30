@@ -21,6 +21,7 @@ package org.basim.uhabits.widgets;
 
 import android.app.*;
 import android.content.*;
+import android.graphics.Color;
 import android.support.annotation.*;
 import android.view.*;
 import android.view.ViewGroup.*;
@@ -62,8 +63,13 @@ public class StreakWidget extends BaseWidget
         int count = chart.getMaxStreakCount();
         List<Streak> streaks = habit.getStreaks().getBest(count);
 
-        chart.setColor(color);
+        try{
+            chart.setColor(Color.parseColor(habit.getColorHex()));
+        } catch (Exception e) {
+            chart.setColor(color);
+        }
         chart.setStreaks(streaks);
+
     }
 
     @Override

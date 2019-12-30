@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/basim/AndroidStudioProjects/JewishTrainer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
+            "outputFile": "D:\\Android Studio Projects\\JewishTrainerNew\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "/Users/basim/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/bf4d3fa010edba126037edaa5dc3bd6f/res/values-v26/values-v26.xml",
+                    "source": "C:\\Users\\DeLL\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\f0f6f4ff8f3cdb0433560328a33a1faf\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/basim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f132c376ddc7b1dee5ef13039881cc02/res/values-v26/values-v26.xml",
+                    "source": "C:\\Users\\DeLL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\0ba5bb480c6ff3b5ed47bf956be430bc\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

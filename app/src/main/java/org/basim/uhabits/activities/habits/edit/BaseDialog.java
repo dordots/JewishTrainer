@@ -34,6 +34,7 @@ import org.basim.uhabits.activities.common.dialogs.*;
 import org.basim.uhabits.commands.*;
 import org.basim.uhabits.models.*;
 import org.basim.uhabits.preferences.*;
+import org.basim.uhabits.utils.Constants;
 
 import java.util.*;
 
@@ -147,7 +148,6 @@ public abstract class BaseDialog extends AppCompatDialogFragment
         if (bundle == null) return;
         modifiedHabit.setColor(
             bundle.getInt("color", modifiedHabit.getColor()));
-
         modifiedHabit.setReminder(null);
 
         int hour = (bundle.getInt("reminderHour", -1));
@@ -191,6 +191,21 @@ public abstract class BaseDialog extends AppCompatDialogFragment
     void onSaveButtonClick()
     {
         helper.parseFormIntoHabit(modifiedHabit);
+        ColorsListBody colorsListBody = PrefManager.getColorsList(getContext());
+        if(colorsListBody == null){
+            colorsListBody = new ColorsListBody();
+        }
+        ArrayList<String> colors = null;
+        if(colorsListBody.getColorsList() == null){
+            colors = new ArrayList<>();
+            colors.add(Constants.selectedColor);
+        } else {
+            colors = colorsListBody.getColorsList();
+            colors.add(Constants.selectedColor);
+        }
+        colorsListBody.setColorsList(colors);
+        PrefManager.saveColorsList(colorsListBody, getContext());
+        Constants.selectedColor =null;
         if (!helper.validate(modifiedHabit)) return;
         saveHabit();
         dismiss();
@@ -218,7 +233,8 @@ public abstract class BaseDialog extends AppCompatDialogFragment
         picker.setListener(c -> {
             prefs.setDefaultHabitColor(c);
             modifiedHabit.setColor(c);
-            helper.populateColor(c);
+            modifiedHabit.setColorHex(null);
+            helper.populateColor(modifiedHabit);
         });
 
         picker.show(getFragmentManager(), "picker");

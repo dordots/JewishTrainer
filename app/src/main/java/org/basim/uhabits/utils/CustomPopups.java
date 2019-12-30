@@ -12,13 +12,10 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import org.basim.uhabits.R;
 import org.basim.uhabits.activities.habits.list.ListHabitsScreen;
@@ -98,18 +95,21 @@ public class CustomPopups {
 
         ArrayList<String> catList = new ArrayList<>();
         ArrayList<String> colorList = new ArrayList<>();
-        Constants.categories.add("Custom");
-        Constants.colors.add("#D3D3D3");
+
+
         for (int i = 0; i < Constants.categories.size(); i++){
-            if(i != 0){
-                if(!Constants.categories.get(i).equals(Constants.categories.get(i-1))){
+            if (i > 0) {
+                if (!Constants.categories.get(i).equals(Constants.categories.get(i - 1))) {
                     catList.add(Constants.categories.get(i));
                     colorList.add(Constants.colors.get(i));
                 }
             } else {
+
                 catList.add(Constants.categories.get(i));
                 colorList.add(Constants.colors.get(i));
             }
+
+
         }
 
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(activity, android.R.layout.simple_list_item_1, catList) {
@@ -127,10 +127,14 @@ public class CustomPopups {
                 textview.setTextColor(Color.WHITE);
 
 
-                textview.setBackgroundColor(Color.parseColor(colorList.get(position)));
+                //          textview.setBackgroundColor(Color.parseColor(colorList.get(position)));
 
+                try {
+                    textview.setBackgroundColor(
+                            ColorUtils.getColor(getContext(), Integer.parseInt(colorList.get(position))));
+                } catch (Exception e) {
 
-
+                }
 
 
                 return textview;
@@ -161,9 +165,12 @@ public class CustomPopups {
             String  colorValue    = colorList.get(position);
             Constants.selectedCategory = itemValue;
             Constants.selectedColor = colorValue;
-            if(itemValue.equals("Custom")){
+            Constants.categoryPos = position;
+
+            if(itemValue.equals("התאמה אישית")){
                 Constants.selectedHabit = null;
                 screen.showCreateHabitScreen();
+                Constants.selectedColor = null;
             } else {
                 showHabitPopup(activity, screen);
             }
@@ -188,6 +195,7 @@ public class CustomPopups {
             }
         }
 
+        int index = Constants.categories.indexOf(Constants.selectedCategory);
 
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(activity, android.R.layout.simple_list_item_1, habitList) {
 
@@ -204,7 +212,8 @@ public class CustomPopups {
                 textview.setTextColor(Color.WHITE);
 
 
-                textview.setBackgroundColor(Color.parseColor(Constants.selectedColor));
+                textview.setBackgroundColor(
+                        ColorUtils.getColor(getContext(), Integer.parseInt(Constants.colors.get( index+position))));
 
                 return textview;
             }
@@ -216,7 +225,7 @@ public class CustomPopups {
             int itemPosition     = position;
             String  itemValue    = (String) habitsList.getItemAtPosition(position);
             String  categoryValue = Constants.categories.get(position);
-            String  colorValue    = Constants.colors.get(position);
+            String  colorValue    = Constants.colors.get(index+position);
             Constants.selectedHabit = itemValue;
             Constants.selectedCategory = categoryValue;
             Constants.selectedColor = colorValue;

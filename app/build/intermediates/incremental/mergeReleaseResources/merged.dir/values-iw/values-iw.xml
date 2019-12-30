@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"נווט לדף הבית"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"נווט למעלה"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"עוד אפשרויות"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"בוצע"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ראה הכל"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"בחר אפליקציה"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"כבוי"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"פועל"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"חיפוש…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"מחק שאילתה"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"שאילתת חיפוש"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"חיפוש"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"שלח שאילתה"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"חיפוש קולי"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"שתף עם"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"שתף עם <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"כווץ"</string>
+    <string name="about">אודות</string>
+    <string name="action">פעולה</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="add_habit">קבלה חדשה</string>
+    <string name="all_time">בכל הזמנים</string>
+    <string name="any_day">כל יום בשבוע</string>
+    <string name="any_weekday">ימי חול</string>
+    <string name="app_name">אֵיזֶהוּ גִבּוֹר</string>
+    <string name="archive">ארכיון</string>
+    <string name="behavior">התנהגות</string>
+    <string name="best_streaks">רצף שיא</string>
+    <string name="bug_report_failed">הפקת דוח שגיאות נכשלה.</string>
+    <string name="by_color">לפי צבע</string>
+    <string name="by_name">לפי שם</string>
+    <string name="by_score">לפי ציון</string>
+    <string name="check">בוצע</string>
+    <string name="checkmark">סימון קבלה</string>
+    <string name="clear">נקה</string>
+    <string name="clear_label">נקה</string>
+    <string name="color_picker_default_title">שינוי צבע</string>
+    <string name="could_not_export">ייצוא נתונים נכשל.</string>
+    <string name="could_not_import">ייבוא נתונים נכשל.</string>
+    <string name="create_habit">צור קבלה</string>
+    <string name="current_streaks">רצף נוכחי</string>
+    <string name="custom">התאמה אישית</string>
+    <string name="custom_frequency">מותאם אישית…</string>
+    <string name="database_repaired">מאגר נתונים תוקן.</string>
+    <string name="day">יום</string>
+    <string name="days">ימים</string>
+    <string name="delete">מחיקה</string>
+    <string name="delete_habits">מחיקת קבלות</string>
+    <string name="delete_habits_message">הקבלות יימחקו לצמיתות. פעולה זו איננה ניתנת לביטול.</string>
+    <string name="description_hint">שאלה (האם ... היום?)</string>
+    <string name="developers">מפתחים</string>
+    <string name="discard">ביטול</string>
+    <string name="done_label">בוצע</string>
+    <string name="download">הורדה</string>
+    <string name="edit">עריכה</string>
+    <string name="edit_habit">ערוך קבלה</string>
+    <string name="every_day">כל יום</string>
+    <string name="every_week">כל שבוע</string>
+    <string name="every_x_days">כל %d ימים</string>
+    <string name="every_x_months">כל %d חודשים</string>
+    <string name="every_x_weeks">כל %d שבועות</string>
+    <string name="export">ייצוא</string>
+    <string name="export_as_csv_summary">יוצר קבצים שניתן לפתוח על-ידי תוכנות גיליון אלקטרוני כגון Microsoft Excel או OpenOffice. אין אפשרות לייבא את הקובץ בחזרה.</string>
+    <string name="export_full_backup">ייצוא גיבוי מלא</string>
+    <string name="export_full_backup_summary">יוצר קובץ המכיל את כל הנתונים שלך. קובץ זה ניתן לייבא בחזרה.</string>
+    <string name="export_to_csv">ייצוא כקובץ CSV</string>
+    <string name="file_not_recognized">קובץ לא מזוהה.</string>
+    <string name="filter">סינון</string>
+    <string name="five_times_per_week">5 פעמים בשבוע</string>
+    <string name="frequency">תדירות</string>
+    <string name="full_backup_success">גיבוי מלא יוצא בהצלחה.</string>
+    <string name="generate_bug_report">הפקת דוח שגיאות</string>
+    <string name="habit">קבלה</string>
+    <string name="habit_not_found">קבלה נמחקה / לא נמצאה</string>
+    <string name="habit_strength">חוזק הקבלה</string>
+    <string name="habits_imported">קבלות יובאו בהצלחה.</string>
+    <string name="help">עזרה ושאלות נפוצות</string>
+    <string name="help_translate">עזרו לנו לתרגם את האפליקציה</string>
+    <string name="hide_archived">הסתר ארכיון</string>
+    <string name="hide_completed">הסתר יעדים שהושלמו</string>
+    <string name="hint_drag">לשינוי סדר הקבלות, לחצו לחיצה ארוכה על הקבלה וגררו אותו למקום הרצוי.</string>
+    <string name="hint_landscape">ניתן לראות ימים נוספים ע\"י סיבוב המסך לתצוגה רוחבית.</string>
+    <string name="hint_title">הידעת?</string>
+    <string name="history">היסטוריה</string>
+    <string name="import_data">ייבוא נתונים</string>
+    <string name="import_data_summary">תומך בכל הגיבויים שיוצאו ע\"י האפליקציה. כמו גם קבצים שנוצרו ע\"י Tickmate, HabitBull או Rewire. לפרטים נוספים ראו שאלות נפוצות.</string>
+    <string name="interface_preferences">ממשק</string>
+    <string name="interval_15_minutes">15 דקות</string>
+    <string name="interval_1_hour">1 שעה</string>
+    <string name="interval_24_hour">24 שעות</string>
+    <string name="interval_2_hour">2 שעות</string>
+    <string name="interval_30_minutes">30 דקות</string>
+    <string name="interval_4_hour">4 שעות</string>
+    <string name="interval_8_hour">8 שעות</string>
+    <string name="intro_description_1">השער שלכם לעולם של עבודה, התקדמות ומודעות עצמית. אפליקציה זו תעזור לכם להפוך את הרצוי למצוי.</string>
+    <string name="intro_description_2">הוסיפו אותו לרשימת הקבלות על ידי לחיצה על לחצן "הוסף". ומידי יום, ציינו באפליקציה אם עמדתם בקבלה.</string>
+    <string name="intro_description_3">קבלות שיבוצעו בעקביות לאורך זמן רב יזכו בכוכב מלא.</string>
+    <string name="intro_description_4">במהלך הזמן תקבלו מידע מפורט על אופן ההתקדמות שלכם, תבינו את מקומכם, ותדעו כמה גִּבּוֹרים אתם.</string>
+    <string name="intro_title_1">ברוכים הבאים גִּבּוֹרים</string>
+    <string name="intro_title_2">הגדירו לעצמכם יעד אותו תרצו לכבוש</string>
+    <string name="intro_title_3">המשיכו לעשות זאת</string>
+    <string name="intro_title_4">מעקב התקדמות</string>
+    <string name="last_x_days">%d הימים האחרונים</string>
+    <string name="last_x_months">%d החודשים האחרונים</string>
+    <string name="last_x_weeks">%d השבועות האחרונים</string>
+    <string name="last_x_years">%d השנים האחרונות</string>
+    <string name="links">קישורים</string>
+    <string name="long_press_to_toggle">לחץ והחזק לסימון או ביטול הסימון</string>
+    <string name="main_activity_title">אֵיזֶהוּ גִבּוֹר</string>
+    <string name="manually">באופן ידני</string>
+    <string name="month">חודש</string>
+    <string name="name">שם</string>
+    <string name="night_mode">מצב לילה</string>
+    <string name="no_habits_found">אין לך קבלות פעילות</string>
+    <string name="no_internet_title">אין חיבור לאינטרנט</string>
+    <string name="no_internet_title_content">עליכם להתחבר לרשת האינטרנט או לחילופין לנתב אלחוטי</string>
+    <string name="none">ללא</string>
+    <string name="number_of_repetitions">מספר חזרות</string>
+    <string name="overview">מבט על</string>
+    <string name="pref_rate_this_app">דרג/י אותנו ב- Google Play</string>
+    <string name="pref_send_feedback">שליחת משוב למפתחים</string>
+    <string name="pref_snooze_interval_title">מרווח נדנוד לתזכורות</string>
+    <string name="pref_toggle_description">סמנו יעדים בהקשה קצרה במקום לחיצה ממושכת. נוח יותר, אך יכול להוביל ללחיצות לא מכוונות.</string>
+    <string name="pref_toggle_title">סימון קבלות בלחיצה קצרה</string>
+    <string name="pref_view_app_introduction">צפייה בפרטים אודות האפליקציה</string>
+    <string name="pref_view_source_code">צפייה בקוד המקור ב-GitHub</string>
+    <string name="pure_black_description">החלפת הרקע האפור במצב לילה לשחור מוחלט. מפחית בזבוז סוללה במכשירים עם תצוגת AMOLED.</string>
+    <string name="quarter">רבעון</string>
+    <string name="reminder">תזכורת</string>
+    <string name="reminder_off">כבוי</string>
+    <string name="reminder_sound">צליל תזכורת</string>
+    <string name="repair_database">תיקון מסד נתונים</string>
+    <string name="repeat">חזור</string>
+    <string name="reverse_days">הפיכת סדר הימים</string>
+    <string name="reverse_days_description">מציג ימים בסדר הפוך במסך הראשי</string>
+    <string name="save">שמירה</string>
+    <string name="score">ציון</string>
+    <string msgid="146198913615257606" name="search_menu_title">"חיפוש"</string>
+    <string name="select_hours">בחר שעות</string>
+    <string name="select_minutes">בחר דקות</string>
+    <string name="select_weekdays">בחירת ימים</string>
+    <string name="settings">הגדרות</string>
+    <string name="snooze">מאוחר יותר</string>
+    <string name="snooze_interval">זמן בין נדנודים</string>
+    <string name="sort">מיון</string>
+    <string name="splash_name" ns2:ignore="ExtraTranslation">רוביג והזיא</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"‎999+‎"</string>
+    <string name="sticky_notifications">צור תזכורות \"דביקות\"</string>
+    <string name="sticky_notifications_description">מונע החלקת וביטול תזכורות.</string>
+    <string name="streaks">רצפים</string>
+    <string name="strength">חוזק</string>
+    <string name="time_every">פעמים ב-</string>
+    <string name="times_every">פעמים ב-</string>
+    <string name="toast_habit_archived">קבלות הועברו לארכיון</string>
+    <string name="toast_habit_changed">קבלה השתנתה</string>
+    <string name="toast_habit_changed_back">קבלה השתנה בחזרה</string>
+    <string name="toast_habit_created">קבלה נוצרה</string>
+    <string name="toast_habit_deleted">קבלות נמחקו</string>
+    <string name="toast_habit_restored">קבלות שוחזרו</string>
+    <string name="toast_habit_unarchived">קבלות הוצאו מארכיון</string>
+    <string name="toast_nothing_to_redo">אין מה לבצע שוב</string>
+    <string name="toast_nothing_to_undo">אין מה לבטל</string>
+    <string name="toggle">הפעלה \ כיבוי</string>
+    <string name="total">סה\"כ</string>
+    <string name="translators">מתרגמים</string>
+    <string name="troubleshooting">פתרון תקלות</string>
+    <string name="two_times_per_week">פעמיים בשבוע</string>
+    <string name="unarchive">הוצא מארכיון</string>
+    <string name="uncheck">ביטול סימון</string>
+    <string name="use_pure_black">רקע שחור למצב לילה</string>
+    <string name="validation_at_most_one_rep_per_day">לא ניתן להגדיר יותר מחזרה אחת ביום</string>
+    <string name="validation_name_should_not_be_blank">השם אינו יכול להישאר ריק.</string>
+    <string name="validation_number_should_be_positive">מספר חייב להיות חיובי.</string>
+    <string name="version_n">גרסה %s</string>
+    <string name="week">שבוע</string>
+    <string name="weekends">סופי שבוע</string>
+    <string name="year">שנה</string>
+</resources>

@@ -14,8 +14,8 @@ public class HintView$$ViewBinder<T extends HintView> implements ViewBinder<T> {
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131296388, "field 'hintContent'");
-    target.hintContent = finder.castView(view, 2131296388, "field 'hintContent'");
+    view = finder.findRequiredView(source, 2131361924, "field 'hintContent'");
+    target.hintContent = finder.castView(view, 2131361924, "field 'hintContent'");
     return unbinder;
   }
 

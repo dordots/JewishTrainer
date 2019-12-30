@@ -20,6 +20,7 @@
 package org.basim.uhabits.activities.habits.show.views;
 
 import android.content.*;
+import android.graphics.Color;
 import android.support.annotation.*;
 import android.util.*;
 import android.widget.*;
@@ -126,8 +127,14 @@ public class ScoreCard extends HabitCard
         if (isInEditMode())
         {
             spinner.setVisibility(GONE);
-            title.setTextColor(ColorUtils.getAndroidTestColor(1));
-            chart.setColor(ColorUtils.getAndroidTestColor(1));
+            try{
+                title.setTextColor(Color.parseColor(getHabit().getColorHex()));
+                chart.setColor(Color.parseColor(getHabit().getColorHex()));
+            }catch (Exception e){
+                title.setTextColor(ColorUtils.getAndroidTestColor(1));
+                chart.setColor(ColorUtils.getAndroidTestColor(1));
+            }
+
             chart.populateWithRandomData();
         }
     }
@@ -159,8 +166,16 @@ public class ScoreCard extends HabitCard
         {
             int color =
                 ColorUtils.getColor(getContext(), getHabit().getColor());
-            title.setTextColor(color);
-            chart.setColor(color);
+
+            try{
+                title.setTextColor(Color.parseColor(getHabit().getColorHex()));
+                chart.setColor(Color.parseColor(getHabit().getColorHex()));
+            }catch (Exception e){
+                title.setTextColor(color);
+                chart.setColor(color);
+            }
+
+
         }
     }
 }

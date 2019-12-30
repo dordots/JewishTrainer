@@ -24,6 +24,7 @@ import com.google.auto.factory.*;
 import org.basim.uhabits.*;
 import org.basim.uhabits.commands.*;
 import org.basim.uhabits.models.*;
+import org.basim.uhabits.utils.Constants;
 
 @AutoFactory(allowSubclasses = true)
 public class CreateHabitDialog extends BaseDialog

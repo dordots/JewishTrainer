@@ -20,6 +20,7 @@
 package org.basim.uhabits.activities.habits.show;
 
 import android.content.*;
+import android.graphics.Color;
 import android.os.*;
 import android.support.annotation.*;
 import android.support.v7.widget.*;
@@ -98,10 +99,14 @@ public class ShowHabitRootView extends BaseRootView
     public int getToolbarColor()
     {
         StyledResources res = new StyledResources(getContext());
-        if (!res.getBoolean(R.attr.useHabitColorAsPrimary))
-            return super.getToolbarColor();
+        try{
+            return Color.parseColor(habit.getColorHex());
+        } catch (Exception e) {
+            if (!res.getBoolean(R.attr.useHabitColorAsPrimary))
+                return super.getToolbarColor();
 
-        return ColorUtils.getColor(getContext(), habit.getColor());
+            return ColorUtils.getColor(getContext(), habit.getColor());
+        }
     }
 
     @Override

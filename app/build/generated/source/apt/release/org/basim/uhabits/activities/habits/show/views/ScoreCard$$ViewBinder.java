@@ -15,9 +15,9 @@ public class ScoreCard$$ViewBinder<T extends ScoreCard> implements ViewBinder<T>
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131296518, "field 'spinner' and method 'onItemSelected'");
-    target.spinner = finder.castView(view, 2131296518, "field 'spinner'");
-    unbinder.view2131296518 = view;
+    view = finder.findRequiredView(source, 2131362055, "field 'spinner' and method 'onItemSelected'");
+    target.spinner = finder.castView(view, 2131362055, "field 'spinner'");
+    unbinder.view2131362055 = view;
     ((AdapterView<?>) view).setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
       @Override
       public void onItemSelected(AdapterView<?> p0, View p1, int p2, long p3) {
@@ -28,10 +28,10 @@ public class ScoreCard$$ViewBinder<T extends ScoreCard> implements ViewBinder<T>
       public void onNothingSelected(AdapterView<?> p0) {
       }
     });
-    view = finder.findRequiredView(source, 2131296487, "field 'chart'");
-    target.chart = finder.castView(view, 2131296487, "field 'chart'");
-    view = finder.findRequiredView(source, 2131296549, "field 'title'");
-    target.title = finder.castView(view, 2131296549, "field 'title'");
+    view = finder.findRequiredView(source, 2131362024, "field 'chart'");
+    target.chart = finder.castView(view, 2131362024, "field 'chart'");
+    view = finder.findRequiredView(source, 2131362086, "field 'title'");
+    target.title = finder.castView(view, 2131362086, "field 'title'");
     return unbinder;
   }
 
@@ -42,7 +42,7 @@ public class ScoreCard$$ViewBinder<T extends ScoreCard> implements ViewBinder<T>
   protected static class InnerUnbinder<T extends ScoreCard> implements Unbinder {
     private T target;
 
-    View view2131296518;
+    View view2131362055;
 
     protected InnerUnbinder(T target) {
       this.target = target;
@@ -56,7 +56,7 @@ public class ScoreCard$$ViewBinder<T extends ScoreCard> implements ViewBinder<T>
     }
 
     protected void unbind(T target) {
-      ((AdapterView<?>) view2131296518).setOnItemSelectedListener(null);
+      ((AdapterView<?>) view2131362055).setOnItemSelectedListener(null);
       target.spinner = null;
       target.chart = null;
       target.title = null;

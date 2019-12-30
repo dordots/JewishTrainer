@@ -24,5 +24,5 @@
         android:layout_height="match_parent"
         android:src="@drawable/ic_colorpicker_swatch_selected"
         android:scaleType="fitXY"
-        android:visibility="gone" />
+        android:visibility="visible" />
 </merge>

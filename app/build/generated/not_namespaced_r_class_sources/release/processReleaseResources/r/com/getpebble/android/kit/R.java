@@ -12,11 +12,11 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int main = 0x7f0b004a;
+        public static final int main = 0x7f0c004a;
     }
     public static final class string {
         private string() {}
 
-        public static final int app_name = 0x7f0e0025;
+        public static final int app_name = 0x7f0f0025;
     }
 }

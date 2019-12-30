@@ -14,12 +14,12 @@ public class SubtitleCard$$ViewBinder<T extends SubtitleCard> implements ViewBin
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131296471, "field 'questionLabel'");
-    target.questionLabel = finder.castView(view, 2131296471, "field 'questionLabel'");
-    view = finder.findRequiredView(source, 2131296382, "field 'frequencyLabel'");
-    target.frequencyLabel = finder.castView(view, 2131296382, "field 'frequencyLabel'");
-    view = finder.findRequiredView(source, 2131296474, "field 'reminderLabel'");
-    target.reminderLabel = finder.castView(view, 2131296474, "field 'reminderLabel'");
+    view = finder.findRequiredView(source, 2131362008, "field 'questionLabel'");
+    target.questionLabel = finder.castView(view, 2131362008, "field 'questionLabel'");
+    view = finder.findRequiredView(source, 2131361918, "field 'frequencyLabel'");
+    target.frequencyLabel = finder.castView(view, 2131361918, "field 'frequencyLabel'");
+    view = finder.findRequiredView(source, 2131362011, "field 'reminderLabel'");
+    target.reminderLabel = finder.castView(view, 2131362011, "field 'reminderLabel'");
     return unbinder;
   }
 

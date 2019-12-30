@@ -20,6 +20,7 @@
 package org.basim.uhabits.activities.habits.show.views;
 
 import android.content.*;
+import android.graphics.Color;
 import android.support.annotation.*;
 import android.util.*;
 import android.widget.*;
@@ -114,9 +115,15 @@ public class OverviewCard extends HabitCard
 
     private void refreshColors()
     {
-        scoreRing.setColor(color);
-        scoreLabel.setTextColor(color);
-        title.setTextColor(color);
+        try {
+            scoreRing.setColor(Color.parseColor(getHabit().getColorHex()));
+            scoreLabel.setTextColor(Color.parseColor(getHabit().getColorHex()));
+            totalCountLabel.setTextColor(Color.parseColor(getHabit().getColorHex()));
+        } catch (Exception e) {
+            scoreRing.setColor(color);
+            scoreLabel.setTextColor(color);
+            title.setTextColor(color);
+        }
     }
 
     private void refreshScore()
@@ -137,9 +144,17 @@ public class OverviewCard extends HabitCard
         StyledResources res = new StyledResources(getContext());
         int inactiveColor = res.getColor(R.attr.mediumContrastTextColor);
 
-        monthDiffLabel.setTextColor(monthDiff >= 0 ? color : inactiveColor);
-        yearDiffLabel.setTextColor(yearDiff >= 0 ? color : inactiveColor);
-        totalCountLabel.setTextColor(yearDiff >= 0 ? color : inactiveColor);
+
+
+        try {
+            monthDiffLabel.setTextColor(Color.parseColor(getHabit().getColorHex()));
+            yearDiffLabel.setTextColor(Color.parseColor(getHabit().getColorHex()));
+            totalCountLabel.setTextColor(Color.parseColor(getHabit().getColorHex()));
+        } catch (Exception e) {
+            monthDiffLabel.setTextColor(monthDiff >= 0 ? color : inactiveColor);
+            yearDiffLabel.setTextColor(yearDiff >= 0 ? color : inactiveColor);
+            totalCountLabel.setTextColor(yearDiff >= 0 ? color : inactiveColor);
+        }
 
         postInvalidate();
     }

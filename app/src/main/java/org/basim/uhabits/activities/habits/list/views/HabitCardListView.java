@@ -27,6 +27,7 @@ import android.support.v7.widget.helper.*;
 import android.util.*;
 import android.view.*;
 
+import org.basim.uhabits.PrefManager;
 import org.basim.uhabits.activities.common.views.*;
 import org.basim.uhabits.activities.habits.list.controllers.*;
 import org.basim.uhabits.activities.habits.list.model.*;
@@ -86,9 +87,19 @@ public class HabitCardListView extends RecyclerView
                              @NonNull Habit habit,
                              int score,
                              int[] checkmarks,
-                             boolean selected)
+                             boolean selected,int pos)
     {
         HabitCardView cardView = (HabitCardView) holder.itemView;
+        if(PrefManager.getColorsList(getContext()) != null){
+            if(PrefManager.getColorsList(getContext()).getColorsList() != null &&
+                    PrefManager.getColorsList(getContext()).getColorsList().size() > 0){
+                try {
+                    habit.setColor(Integer.valueOf(PrefManager.getColorsList(getContext()).getColorsList().get(pos)));
+                } catch (NumberFormatException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
         cardView.setHabit(habit);
         cardView.setSelected(selected);
         cardView.setCheckmarkValues(checkmarks);

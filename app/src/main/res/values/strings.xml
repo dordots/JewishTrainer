@@ -208,5 +208,6 @@
     <string name="customize_notification">Customize notifications</string>
     <string name="no_internet_title">Internet Connection</string>
     <string name="no_internet_title_content">Please connect to the internet</string>
+    <string name="custom">Custom</string>
 
 </resources>

@@ -1,4 +1,4 @@
-#Sun May 19 14:27:59 PKT 2019
-base.0=/Users/basim/AndroidStudioProjects/JewishTrainer/app/build/intermediates/transforms/dexMerger/debug/0
+#Sun Dec 29 16:04:23 PKT 2019
+base.0=D\:\\Android Studio Projects\\JewishTrainerNew\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

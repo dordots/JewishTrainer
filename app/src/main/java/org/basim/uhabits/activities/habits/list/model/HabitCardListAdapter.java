@@ -23,6 +23,7 @@ import android.support.annotation.*;
 import android.support.v7.widget.*;
 import android.view.*;
 
+import org.basim.uhabits.PrefManager;
 import org.basim.uhabits.activities.*;
 import org.basim.uhabits.activities.habits.list.*;
 import org.basim.uhabits.activities.habits.list.views.*;
@@ -174,7 +175,7 @@ public class HabitCardListAdapter
         int checkmarks[] = cache.getCheckmarks(habit.getId());
         boolean selected = this.selected.contains(habit);
 
-        listView.bindCardView(holder, habit, score, checkmarks, selected);
+        listView.bindCardView(holder, habit, score, checkmarks, selected, position);
     }
 
     @Override

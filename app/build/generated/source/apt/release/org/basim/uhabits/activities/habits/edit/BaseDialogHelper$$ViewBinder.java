@@ -14,24 +14,24 @@ public class BaseDialogHelper$$ViewBinder<T extends BaseDialogHelper> implements
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131296568, "field 'tvName'");
-    target.tvName = finder.castView(view, 2131296568, "field 'tvName'");
-    view = finder.findRequiredView(source, 2131296564, "field 'tvDescription'");
-    target.tvDescription = finder.castView(view, 2131296564, "field 'tvDescription'");
-    view = finder.findRequiredView(source, 2131296567, "field 'tvFreqNum'");
-    target.tvFreqNum = finder.castView(view, 2131296567, "field 'tvFreqNum'");
-    view = finder.findRequiredView(source, 2131296566, "field 'tvFreqDen'");
-    target.tvFreqDen = finder.castView(view, 2131296566, "field 'tvFreqDen'");
-    view = finder.findRequiredView(source, 2131296571, "field 'tvReminderTime'");
-    target.tvReminderTime = finder.castView(view, 2131296571, "field 'tvReminderTime'");
-    view = finder.findRequiredView(source, 2131296570, "field 'tvReminderDays'");
-    target.tvReminderDays = finder.castView(view, 2131296570, "field 'tvReminderDays'");
-    view = finder.findRequiredView(source, 2131296480, "field 'sFrequency'");
-    target.sFrequency = finder.castView(view, 2131296480, "field 'sFrequency'");
-    view = finder.findRequiredView(source, 2131296433, "field 'llCustomFrequency'");
-    target.llCustomFrequency = finder.castView(view, 2131296433, "field 'llCustomFrequency'");
-    view = finder.findRequiredView(source, 2131296437, "field 'llReminderDays'");
-    target.llReminderDays = finder.castView(view, 2131296437, "field 'llReminderDays'");
+    view = finder.findRequiredView(source, 2131362105, "field 'tvName'");
+    target.tvName = finder.castView(view, 2131362105, "field 'tvName'");
+    view = finder.findRequiredView(source, 2131362101, "field 'tvDescription'");
+    target.tvDescription = finder.castView(view, 2131362101, "field 'tvDescription'");
+    view = finder.findRequiredView(source, 2131362104, "field 'tvFreqNum'");
+    target.tvFreqNum = finder.castView(view, 2131362104, "field 'tvFreqNum'");
+    view = finder.findRequiredView(source, 2131362103, "field 'tvFreqDen'");
+    target.tvFreqDen = finder.castView(view, 2131362103, "field 'tvFreqDen'");
+    view = finder.findRequiredView(source, 2131362108, "field 'tvReminderTime'");
+    target.tvReminderTime = finder.castView(view, 2131362108, "field 'tvReminderTime'");
+    view = finder.findRequiredView(source, 2131362107, "field 'tvReminderDays'");
+    target.tvReminderDays = finder.castView(view, 2131362107, "field 'tvReminderDays'");
+    view = finder.findRequiredView(source, 2131362017, "field 'sFrequency'");
+    target.sFrequency = finder.castView(view, 2131362017, "field 'sFrequency'");
+    view = finder.findRequiredView(source, 2131361970, "field 'llCustomFrequency'");
+    target.llCustomFrequency = finder.castView(view, 2131361970, "field 'llCustomFrequency'");
+    view = finder.findRequiredView(source, 2131361974, "field 'llReminderDays'");
+    target.llReminderDays = finder.castView(view, 2131361974, "field 'llReminderDays'");
     return unbinder;
   }
 

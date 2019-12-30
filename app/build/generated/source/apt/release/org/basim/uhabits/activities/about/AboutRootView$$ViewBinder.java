@@ -15,39 +15,39 @@ public class AboutRootView$$ViewBinder<T extends AboutRootView> implements ViewB
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131296575, "field 'tvVersion'");
-    target.tvVersion = finder.castView(view, 2131296575, "field 'tvVersion'");
-    view = finder.findRequiredView(source, 2131296569, "field 'tvRate' and method 'onClickRate'");
-    target.tvRate = finder.castView(view, 2131296569, "field 'tvRate'");
-    unbinder.view2131296569 = view;
+    view = finder.findRequiredView(source, 2131362112, "field 'tvVersion'");
+    target.tvVersion = finder.castView(view, 2131362112, "field 'tvVersion'");
+    view = finder.findRequiredView(source, 2131362106, "field 'tvRate' and method 'onClickRate'");
+    target.tvRate = finder.castView(view, 2131362106, "field 'tvRate'");
+    unbinder.view2131362106 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onClickRate();
       }
     });
-    view = finder.findRequiredView(source, 2131296565, "field 'tvFeedback' and method 'onClickFeedback'");
-    target.tvFeedback = finder.castView(view, 2131296565, "field 'tvFeedback'");
-    unbinder.view2131296565 = view;
+    view = finder.findRequiredView(source, 2131362102, "field 'tvFeedback' and method 'onClickFeedback'");
+    target.tvFeedback = finder.castView(view, 2131362102, "field 'tvFeedback'");
+    unbinder.view2131362102 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onClickFeedback();
       }
     });
-    view = finder.findRequiredView(source, 2131296572, "field 'tvSource' and method 'onClickSource'");
-    target.tvSource = finder.castView(view, 2131296572, "field 'tvSource'");
-    unbinder.view2131296572 = view;
+    view = finder.findRequiredView(source, 2131362109, "field 'tvSource' and method 'onClickSource'");
+    target.tvSource = finder.castView(view, 2131362109, "field 'tvSource'");
+    unbinder.view2131362109 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onClickSource();
       }
     });
-    view = finder.findRequiredView(source, 2131296552, "field 'toolbar'");
-    target.toolbar = finder.castView(view, 2131296552, "field 'toolbar'");
-    view = finder.findRequiredView(source, 2131296574, "method 'onClickTranslate'");
-    unbinder.view2131296574 = view;
+    view = finder.findRequiredView(source, 2131362089, "field 'toolbar'");
+    target.toolbar = finder.castView(view, 2131362089, "field 'toolbar'");
+    view = finder.findRequiredView(source, 2131362111, "method 'onClickTranslate'");
+    unbinder.view2131362111 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -64,13 +64,13 @@ public class AboutRootView$$ViewBinder<T extends AboutRootView> implements ViewB
   protected static class InnerUnbinder<T extends AboutRootView> implements Unbinder {
     private T target;
 
-    View view2131296569;
+    View view2131362106;
 
-    View view2131296565;
+    View view2131362102;
 
-    View view2131296572;
+    View view2131362109;
 
-    View view2131296574;
+    View view2131362111;
 
     protected InnerUnbinder(T target) {
       this.target = target;
@@ -85,14 +85,14 @@ public class AboutRootView$$ViewBinder<T extends AboutRootView> implements ViewB
 
     protected void unbind(T target) {
       target.tvVersion = null;
-      view2131296569.setOnClickListener(null);
+      view2131362106.setOnClickListener(null);
       target.tvRate = null;
-      view2131296565.setOnClickListener(null);
+      view2131362102.setOnClickListener(null);
       target.tvFeedback = null;
-      view2131296572.setOnClickListener(null);
+      view2131362109.setOnClickListener(null);
       target.tvSource = null;
       target.toolbar = null;
-      view2131296574.setOnClickListener(null);
+      view2131362111.setOnClickListener(null);
     }
   }
 }

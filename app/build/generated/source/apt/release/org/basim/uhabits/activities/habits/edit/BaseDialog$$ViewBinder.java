@@ -16,48 +16,48 @@ public class BaseDialog$$ViewBinder<T extends BaseDialog> implements ViewBinder<
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131296318, "method 'onButtonDiscardClick'");
-    unbinder.view2131296318 = view;
+    view = finder.findRequiredView(source, 2131361854, "method 'onButtonDiscardClick'");
+    unbinder.view2131361854 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onButtonDiscardClick();
       }
     });
-    view = finder.findRequiredView(source, 2131296571, "method 'onDateSpinnerClick'");
-    unbinder.view2131296571 = view;
+    view = finder.findRequiredView(source, 2131362108, "method 'onDateSpinnerClick'");
+    unbinder.view2131362108 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onDateSpinnerClick();
       }
     });
-    view = finder.findRequiredView(source, 2131296322, "method 'onSaveButtonClick'");
-    unbinder.view2131296322 = view;
+    view = finder.findRequiredView(source, 2131361858, "method 'onSaveButtonClick'");
+    unbinder.view2131361858 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onSaveButtonClick();
       }
     });
-    view = finder.findRequiredView(source, 2131296570, "method 'onWeekdayClick'");
-    unbinder.view2131296570 = view;
+    view = finder.findRequiredView(source, 2131362107, "method 'onWeekdayClick'");
+    unbinder.view2131362107 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onWeekdayClick();
       }
     });
-    view = finder.findRequiredView(source, 2131296321, "method 'showColorPicker'");
-    unbinder.view2131296321 = view;
+    view = finder.findRequiredView(source, 2131361857, "method 'showColorPicker'");
+    unbinder.view2131361857 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.showColorPicker();
       }
     });
-    view = finder.findRequiredView(source, 2131296480, "method 'onFrequencySelected'");
-    unbinder.view2131296480 = view;
+    view = finder.findRequiredView(source, 2131362017, "method 'onFrequencySelected'");
+    unbinder.view2131362017 = view;
     ((AdapterView<?>) view).setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
       @Override
       public void onItemSelected(AdapterView<?> p0, View p1, int p2, long p3) {
@@ -78,17 +78,17 @@ public class BaseDialog$$ViewBinder<T extends BaseDialog> implements ViewBinder<
   protected static class InnerUnbinder<T extends BaseDialog> implements Unbinder {
     private T target;
 
-    View view2131296318;
+    View view2131361854;
 
-    View view2131296571;
+    View view2131362108;
 
-    View view2131296322;
+    View view2131361858;
 
-    View view2131296570;
+    View view2131362107;
 
-    View view2131296321;
+    View view2131361857;
 
-    View view2131296480;
+    View view2131362017;
 
     protected InnerUnbinder(T target) {
       this.target = target;
@@ -102,12 +102,12 @@ public class BaseDialog$$ViewBinder<T extends BaseDialog> implements ViewBinder<
     }
 
     protected void unbind(T target) {
-      view2131296318.setOnClickListener(null);
-      view2131296571.setOnClickListener(null);
-      view2131296322.setOnClickListener(null);
-      view2131296570.setOnClickListener(null);
-      view2131296321.setOnClickListener(null);
-      ((AdapterView<?>) view2131296480).setOnItemSelectedListener(null);
+      view2131361854.setOnClickListener(null);
+      view2131362108.setOnClickListener(null);
+      view2131361858.setOnClickListener(null);
+      view2131362107.setOnClickListener(null);
+      view2131361857.setOnClickListener(null);
+      ((AdapterView<?>) view2131362017).setOnItemSelectedListener(null);
     }
   }
 }

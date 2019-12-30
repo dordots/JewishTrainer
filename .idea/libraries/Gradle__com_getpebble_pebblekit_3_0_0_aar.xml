@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.getpebble:pebblekit:3.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pebblekit-3.0.0.aar/3a1cd4d583daa1a24c7bd3d512f64b09/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pebblekit-3.0.0.aar/3a1cd4d583daa1a24c7bd3d512f64b09/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pebblekit-3.0.0.aar/e5ee771283d40ed9f6fd828b51774564/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pebblekit-3.0.0.aar/e5ee771283d40ed9f6fd828b51774564/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

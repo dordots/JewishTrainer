@@ -22,6 +22,7 @@ package org.basim.uhabits.activities.habits.show.views;
 import android.annotation.*;
 import android.content.*;
 import android.content.res.*;
+import android.graphics.Color;
 import android.util.*;
 import android.widget.*;
 
@@ -57,7 +58,12 @@ public class SubtitleCard extends HabitCard
         reminderLabel.setText(getResources().getString(R.string.reminder_off));
         questionLabel.setVisibility(VISIBLE);
 
-        questionLabel.setTextColor(color);
+        try{
+            questionLabel.setTextColor(Color.parseColor(habit.getColorHex()));
+        }catch (Exception e){
+            questionLabel.setTextColor(color);
+        }
+
         questionLabel.setText(habit.getDescription());
         frequencyLabel.setText(toText(habit.getFrequency()));
 

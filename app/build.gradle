@@ -3,8 +3,8 @@ apply plugin: 'jacoco'
 apply plugin: 'com.github.triplet.play'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion '28.0.2'
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 //    signingConfigs {
 //        release {
 //            storeFile file(LOOP_STORE_FILE)
@@ -22,14 +22,14 @@ android {
     defaultConfig {
         applicationId "org.basim.uhabits"
         minSdkVersion 15
-        targetSdkVersion 27
+        targetSdkVersion 28
         buildConfigField "Integer", "databaseVersion", "15"
         buildConfigField "String", "databaseFilename", "\"uhabits.db\""
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         testInstrumentationRunnerArgument "size", "medium"
 //        playAccountConfig = playAccountConfigs.defaultAccountConfig
-        versionCode 4
-        versionName '1.0.4'
+        versionCode 12
+        versionName '2.0.2'
     }
     buildTypes {
         release {
@@ -91,6 +91,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     testImplementation 'org.hamcrest:hamcrest-library:1.3'
     testImplementation 'org.mockito:mockito-core:1.10.19'
+    implementation 'com.google.code.gson:gson:2.8.2'
+
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.1') {
         exclude group: 'com.android.support'
     }

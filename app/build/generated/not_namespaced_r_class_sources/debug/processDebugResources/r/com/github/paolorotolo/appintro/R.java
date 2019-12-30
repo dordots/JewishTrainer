@@ -453,10 +453,10 @@ public final class R {
         public static final int abc_textfield_search_material = 0x7f080057;
         public static final int ic_arrow_forward_white_24px = 0x7f08007e;
         public static final int ic_done_white_24px = 0x7f080080;
-        public static final int ic_navigate_next_white_24dp = 0x7f080082;
-        public static final int indicator_dot_grey = 0x7f080086;
-        public static final int indicator_dot_white = 0x7f080087;
-        public static final int notification_template_icon_bg = 0x7f080097;
+        public static final int ic_navigate_next_white_24dp = 0x7f080084;
+        public static final int indicator_dot_grey = 0x7f080088;
+        public static final int indicator_dot_white = 0x7f080089;
+        public static final int notification_template_icon_bg = 0x7f080099;
     }
     public static final class id {
         private id() {}
@@ -559,11 +559,11 @@ public final class R {
         public static final int title = 0x7f090125;
         public static final int title_template = 0x7f090127;
         public static final int topPanel = 0x7f09012b;
-        public static final int up = 0x7f090141;
-        public static final int useLogo = 0x7f090142;
-        public static final int view_pager = 0x7f090144;
-        public static final int withText = 0x7f090146;
-        public static final int wrap_content = 0x7f090147;
+        public static final int up = 0x7f090142;
+        public static final int useLogo = 0x7f090143;
+        public static final int view_pager = 0x7f090145;
+        public static final int withText = 0x7f090147;
+        public static final int wrap_content = 0x7f090148;
     }
     public static final class integer {
         private integer() {}
@@ -637,20 +637,20 @@ public final class R {
         public static final int abc_shareactionprovider_share_with = 0x7f0e001a;
         public static final int abc_shareactionprovider_share_with_application = 0x7f0e001b;
         public static final int abc_toolbar_collapse_description = 0x7f0e001c;
-        public static final int define_appintro = 0x7f0e0048;
-        public static final int done_button = 0x7f0e0050;
-        public static final int library_appintro_author = 0x7f0e0096;
-        public static final int library_appintro_authorWebsite = 0x7f0e0097;
-        public static final int library_appintro_classPath = 0x7f0e0098;
-        public static final int library_appintro_isOpenSource = 0x7f0e0099;
-        public static final int library_appintro_libraryDescription = 0x7f0e009a;
-        public static final int library_appintro_libraryName = 0x7f0e009b;
-        public static final int library_appintro_libraryVersion = 0x7f0e009c;
-        public static final int library_appintro_libraryWebsite = 0x7f0e009d;
-        public static final int library_appintro_licenseId = 0x7f0e009e;
-        public static final int library_appintro_repositoryLink = 0x7f0e009f;
-        public static final int skip_button = 0x7f0e00d4;
-        public static final int status_bar_notification_info_overflow = 0x7f0e00da;
+        public static final int define_appintro = 0x7f0e0049;
+        public static final int done_button = 0x7f0e0051;
+        public static final int library_appintro_author = 0x7f0e0097;
+        public static final int library_appintro_authorWebsite = 0x7f0e0098;
+        public static final int library_appintro_classPath = 0x7f0e0099;
+        public static final int library_appintro_isOpenSource = 0x7f0e009a;
+        public static final int library_appintro_libraryDescription = 0x7f0e009b;
+        public static final int library_appintro_libraryName = 0x7f0e009c;
+        public static final int library_appintro_libraryVersion = 0x7f0e009d;
+        public static final int library_appintro_libraryWebsite = 0x7f0e009e;
+        public static final int library_appintro_licenseId = 0x7f0e009f;
+        public static final int library_appintro_repositoryLink = 0x7f0e00a0;
+        public static final int skip_button = 0x7f0e00d5;
+        public static final int status_bar_notification_info_overflow = 0x7f0e00dc;
     }
     public static final class style {
         private style() {}

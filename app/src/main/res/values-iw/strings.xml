@@ -18,7 +18,7 @@
  ~ You should have received a copy of the GNU General Public License along
  ~ with this program. If not, see <http://www.gnu.org/licenses/>.
  -->
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">אֵיזֶהוּ גִבּוֹר</string>
       <string name="main_activity_title">אֵיזֶהוּ גִבּוֹר</string>
     <string name="action_settings">הגדרות</string>
@@ -175,8 +175,10 @@
     <string name="by_score">לפי ציון</string>
     <string name="download">הורדה</string>
     <string name="export">ייצוא</string>
+    <string name="custom">התאמה אישית</string>
     <string name="no_internet_title">אין חיבור לאינטרנט</string>
     <string name="no_internet_title_content">עליכם להתחבר לרשת האינטרנט או לחילופין לנתב אלחוטי</string>
+    <string name="splash_name" tools:ignore="ExtraTranslation">רוביג והזיא</string>
 
 </resources>
 

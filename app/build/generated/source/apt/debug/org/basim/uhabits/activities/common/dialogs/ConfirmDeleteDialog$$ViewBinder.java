@@ -14,7 +14,7 @@ public class ConfirmDeleteDialog$$ViewBinder<T extends ConfirmDeleteDialog> impl
   @SuppressWarnings("ResourceType")
   public Unbinder bind(final Finder finder, final T target, Object source) {
     Resources res = finder.getContext(source).getResources();
-    target.question = res.getString(2131624011);
+    target.question = res.getString(2131624012);
     target.yes = res.getString(17039379);
     target.no = res.getString(17039369);
     return Unbinder.EMPTY;

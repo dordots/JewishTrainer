@@ -264,6 +264,9 @@ public class ListHabitsMenu extends BaseMenu
                         ArrayList<String> habits = new ArrayList<>();
                         ArrayList<String> categories = new ArrayList<>();
                         ArrayList<String> colors = new ArrayList<>();
+
+
+
                         int lenArray = array.length();
                         if(lenArray > 0) {
                             for( ; jIndex < lenArray; jIndex++) {
@@ -274,16 +277,21 @@ public class ListHabitsMenu extends BaseMenu
                                 String habit = c.getString("habit");
                                 String category = c.getString("category");
                                 String color = c.getString("color");
-                                habits.add(habit);
+                                if(!categories.contains(category)) {
+
+                                }
                                 categories.add(category);
+                                habits.add(habit);
                                 colors.add(color);
 
 
-                                Log.e("DATAAAAA", "question1: " + habit);
+                                Log.e("DATAAAAA", "question1: " + color);
 
 
                             }
                         }
+                        categories.add("התאמה אישית");
+                        colors.add("12");
                         Constants.habits = habits;
                         Constants.categories = categories;
                         Constants.colors = colors;

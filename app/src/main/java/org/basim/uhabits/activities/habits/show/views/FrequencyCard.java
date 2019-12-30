@@ -20,6 +20,7 @@
 package org.basim.uhabits.activities.habits.show.views;
 
 import android.content.*;
+import android.graphics.Color;
 import android.support.annotation.*;
 import android.util.*;
 import android.widget.*;
@@ -83,9 +84,15 @@ public class FrequencyCard extends HabitCard
     private void initEditMode()
     {
         int color = ColorUtils.getAndroidTestColor(1);
-        title.setTextColor(color);
-        chart.setColor(color);
+        try{
+            title.setTextColor(Color.parseColor(getHabit().getColorHex()));
+            chart.setColor(Color.parseColor(getHabit().getColorHex()));
+        } catch (Exception e) {
+            title.setTextColor(color);
+            chart.setColor(color);
+        }
         chart.populateWithRandomData();
+
     }
 
     private class RefreshTask implements Task
@@ -103,8 +110,15 @@ public class FrequencyCard extends HabitCard
         {
             int paletteColor = getHabit().getColor();
             int color = ColorUtils.getColor(getContext(), paletteColor);
-            title.setTextColor(color);
-            chart.setColor(color);
+
+            try{
+                title.setTextColor(Color.parseColor(getHabit().getColorHex()));
+                chart.setColor(Color.parseColor(getHabit().getColorHex()));
+            } catch (Exception e) {
+                title.setTextColor(color);
+                chart.setColor(color);
+            }
+
         }
     }
 }

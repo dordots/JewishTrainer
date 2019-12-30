@@ -14,10 +14,10 @@ public class FrequencyCard$$ViewBinder<T extends FrequencyCard> implements ViewB
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131296549, "field 'title'");
-    target.title = finder.castView(view, 2131296549, "field 'title'");
-    view = finder.findRequiredView(source, 2131296380, "field 'chart'");
-    target.chart = finder.castView(view, 2131296380, "field 'chart'");
+    view = finder.findRequiredView(source, 2131362086, "field 'title'");
+    target.title = finder.castView(view, 2131362086, "field 'title'");
+    view = finder.findRequiredView(source, 2131361916, "field 'chart'");
+    target.chart = finder.castView(view, 2131361916, "field 'chart'");
     return unbinder;
   }
 

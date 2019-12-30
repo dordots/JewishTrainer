@@ -20,8 +20,8 @@ public class OverviewCard$$ViewBinder<T extends OverviewCard> implements ViewBin
     target.scoreLabel = finder.castView(view, 2131296485, "field 'scoreLabel'");
     view = finder.findRequiredView(source, 2131296447, "field 'monthDiffLabel'");
     target.monthDiffLabel = finder.castView(view, 2131296447, "field 'monthDiffLabel'");
-    view = finder.findRequiredView(source, 2131296584, "field 'yearDiffLabel'");
-    target.yearDiffLabel = finder.castView(view, 2131296584, "field 'yearDiffLabel'");
+    view = finder.findRequiredView(source, 2131296585, "field 'yearDiffLabel'");
+    target.yearDiffLabel = finder.castView(view, 2131296585, "field 'yearDiffLabel'");
     view = finder.findRequiredView(source, 2131296556, "field 'totalCountLabel'");
     target.totalCountLabel = finder.castView(view, 2131296556, "field 'totalCountLabel'");
     view = finder.findRequiredView(source, 2131296549, "field 'title'");

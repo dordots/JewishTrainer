@@ -20,6 +20,7 @@
 package org.basim.uhabits.activities.habits.show.views;
 
 import android.content.*;
+import android.graphics.Color;
 import android.support.annotation.*;
 import android.util.*;
 import android.widget.*;
@@ -85,8 +86,14 @@ public class StreakCard extends HabitCard
     private void initEditMode()
     {
         int color = ColorUtils.getAndroidTestColor(1);
-        title.setTextColor(color);
-        streakChart.setColor(color);
+
+        try{
+            title.setTextColor(Color.parseColor(getHabit().getColorHex()));
+            streakChart.setColor(Color.parseColor(getHabit().getColorHex()));
+        } catch (Exception e) {
+            title.setTextColor(color);
+            streakChart.setColor(color);
+        }
         streakChart.populateWithRandomData();
     }
 
@@ -112,8 +119,13 @@ public class StreakCard extends HabitCard
         {
             int color =
                 ColorUtils.getColor(getContext(), getHabit().getColor());
-            title.setTextColor(color);
-            streakChart.setColor(color);
+            try{
+                title.setTextColor(Color.parseColor(getHabit().getColorHex()));
+                streakChart.setColor(Color.parseColor(getHabit().getColorHex()));
+            } catch (Exception e) {
+                title.setTextColor(color);
+                streakChart.setColor(color);
+            }
         }
     }
 }
